@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "svg_count": 13,
+  "source_statistics_checked": true,
+  "six_seed_matrix_total_pixels": 2293760,
+  "S5_seed": 1004,
+  "S5_diagonal_counts": [
+    1924986,
+    5026,
+    255516,
+    50193,
+    6449
+  ],
+  "numerical_figures_have_no_embedded_raster": true,
+  "placement_raster_images": 5,
+  "figures": [
+    {
+      "svg": "Fig2H_internal_confusion_ASPP123.svg",
+      "editable_text_elements": 52,
+      "embedded_raster_images": 0,
+      "sha256": "c43f9fb365db54a10fd18ce37bacc80ce735624ad80e89ff221c1998a8aa683c"
+    },
+    {
+      "svg": "FigS2_internal_tissue_metrics_ASPP123.svg",
+      "editable_text_elements": 16,
+      "embedded_raster_images": 0,
+      "sha256": "f3890d69fb24532433e5d52fb5227b43c12a97349a11e87f322695d53d7e5a91"
+    },
+    {
+      "svg": "FigS3_internal_baseline_comparison_ASPP123.svg",
+      "editable_text_elements": 18,
+      "embedded_raster_images": 0,
+      "sha256": "d03e82fdfcec46d7a4f42ab4cce4e13012f23abb4cd5b512180da661148feb5b"
+    },
+    {
+      "svg": "FigS5_internal_confusion_counts_ASPP123.svg",
+      "editable_text_elements": 42,
+      "embedded_raster_images": 0,
+      "sha256": "210d82b81ea10d796a1bff323f4bd9a6b949b7480f9e9572d992572fe15933ba"
+    },
+    {
+      "svg": "Figure2A_workflow.svg",
+      "editable_text_elements": 20,
+      "embedded_raster_images": 0,
+      "sha256": "b302e674412efc9a587ff8bb1e5b413dc7bf466c850b59585e8c0c4d0e3d4e54"
+    },
+    {
+      "svg": "Figure2B_architecture.svg",
+      "editable_text_elements": 42,
+      "embedded_raster_images": 0,
+      "sha256": "e4881543793b4a96e01eb160c9ed62d58db88003e3b1d01e9cc94a370aea071f"
+    },
+    {
+      "svg": "Figure2KL_area_selected100.svg",
+      "editable_text_elements": 36,
+      "embedded_raster_images": 0,
+      "sha256": "94fc169a07925263d42645244de81adecd89c2b359c865af0f3bfb5bd4fd3999"
+    },
+    {
+      "svg": "Figure2K_area_selected100.svg",
+      "editable_text_elements": 17,
+      "embedded_raster_images": 0,
+      "sha256": "6b7551ab89d95ba7a99e7c137d1effaa1a07d7211fd6ae7a39aeb290dae0d437"
+    },
+    {
+      "svg": "Figure2L_area_selected100.svg",
+      "editable_text_elements": 21,
+      "embedded_raster_images": 0,
+      "sha256": "c173ebc37efe813cb656e8e5b26f634e0b2a72ea7afadc5cfe8e2e77c4c0dc80"
+    },
+    {
+      "svg": "FigureS22_placement_overlays.svg",
+      "editable_text_elements": 12,
+      "embedded_raster_images": 5,
+      "sha256": "9a45c6ad3e403ff4a0d94bf3385ffd95fc3d9f13d32b45d83bd545911aa6fa8d"
+    },
+    {
+      "svg": "Internal_benchmark_table.svg",
+      "editable_text_elements": 50,
+      "embedded_raster_images": 0,
+      "sha256": "53310a86bc85d75f4f50726c2c47fe69cdbc4b35a00ef6576da00615384e2098"
+    },
+    {
+      "svg": "Internal_class_metrics_table.svg",
+      "editable_text_elements": 30,
+      "embedded_raster_images": 0,
+      "sha256": "e9fa4c1a73b980110a015aef645d44891d8a6c46bee83997bc2ab8fe897b7374"
+    },
+    {
+      "svg": "Internal_tissue_metrics_with_recall_ASPP123.svg",
+      "editable_text_elements": 17,
+      "embedded_raster_images": 0,
+      "sha256": "c3c4403c937163c78c0e9ceebfd236814fcddbd617f6681fa6df071a6b9c855b"
+    }
+  ],
+  "visual_review_record": "visual_review.json"
+}

@@ -1,0 +1,343 @@
+{
+  "purpose": "Display-only update of five existing photo overlays",
+  "metrics_source": "source.best_original; unchanged from supplied composites",
+  "processing": "Remove report header; rotate complete photo composite; square crop",
+  "photograph_and_overlay_share_one_transform": true,
+  "grid_layers_redrawn": false,
+  "iou_reestimated_from_raster": false,
+  "records": [
+    {
+      "pair": "pair_01",
+      "animal": "G3-2",
+      "date": "20260927",
+      "iou_percent": 94.48418877623978,
+      "dice_percent": 97.163876786865,
+      "iou_label": "94.48%",
+      "source_image": "sources/pair_01_supplied_overlay.jpg",
+      "source_sha256": "535b547a4b6119e621773cc7bd6c4fecbdc6d43e642f767c9120ae9fddc332a1",
+      "source_header_height_px": 296,
+      "display_rotation_deg": -10.0,
+      "rotated_image_size_px": [
+        1111,
+        1097
+      ],
+      "crop_box_after_rotation_px": [
+        192,
+        180,
+        934,
+        922
+      ],
+      "display_rotation_matrix": [
+        [
+          0.984807753012208,
+          -0.17364817766693033
+        ],
+        [
+          0.17364817766693033,
+          0.984807753012208
+        ]
+      ],
+      "max_pairwise_distance_change_px": 3.410605131648481e-13,
+      "all_detected_grid_lines_inside_crop": true,
+      "source_photo_covers_entire_crop": true,
+      "native_panel_size_px": [
+        742,
+        742
+      ],
+      "panel_path": "panels/pair_01_photo.png",
+      "panel_sha256": "77eb1a87be201e4a496448ff8e64ac7fb5e6c1f1a5ba3743dbb846aeffb116d0",
+      "registration_gate_pass": true
+    },
+    {
+      "pair": "pair_02",
+      "animal": "G4-5",
+      "date": "20260928",
+      "iou_percent": 90.64728131389353,
+      "dice_percent": 95.09422918509517,
+      "iou_label": "90.65%",
+      "source_image": "sources/pair_02_supplied_overlay.jpg",
+      "source_sha256": "3441efe33c12c8a064dc36e4e762164b6cf3e8e496dcc3e4755075db72b666e5",
+      "source_header_height_px": 296,
+      "display_rotation_deg": -0.0,
+      "rotated_image_size_px": [
+        960,
+        960
+      ],
+      "crop_box_after_rotation_px": [
+        77,
+        83,
+        877,
+        883
+      ],
+      "display_rotation_matrix": [
+        [
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "max_pairwise_distance_change_px": 0.0,
+      "all_detected_grid_lines_inside_crop": true,
+      "source_photo_covers_entire_crop": true,
+      "native_panel_size_px": [
+        800,
+        800
+      ],
+      "panel_path": "panels/pair_02_photo.png",
+      "panel_sha256": "cf0e004809b1891fbbd4f630575ecd482274ab438ee112cb340909d044a6f410",
+      "registration_gate_pass": true
+    },
+    {
+      "pair": "pair_03",
+      "animal": "G4-1",
+      "date": "20260924",
+      "iou_percent": 90.32071072332509,
+      "dice_percent": 94.91422176814693,
+      "iou_label": "90.32%",
+      "source_image": "sources/pair_03_supplied_overlay.jpg",
+      "source_sha256": "4b0baf695edb8a68d5fde0e19089a236f393da17817608abde05facaefa62147",
+      "source_header_height_px": 296,
+      "display_rotation_deg": 7.0,
+      "rotated_image_size_px": [
+        1068,
+        1053
+      ],
+      "crop_box_after_rotation_px": [
+        127,
+        130,
+        921,
+        924
+      ],
+      "display_rotation_matrix": [
+        [
+          0.992546151641322,
+          0.12186934340514748
+        ],
+        [
+          -0.12186934340514748,
+          0.992546151641322
+        ]
+      ],
+      "max_pairwise_distance_change_px": 4.547473508864641e-13,
+      "all_detected_grid_lines_inside_crop": true,
+      "source_photo_covers_entire_crop": true,
+      "native_panel_size_px": [
+        794,
+        794
+      ],
+      "panel_path": "panels/pair_03_photo.png",
+      "panel_sha256": "66971ae16ffdc6a9936b23c55bf8b9f57465c6606978d406fc0f18527aeabe1e",
+      "registration_gate_pass": false
+    },
+    {
+      "pair": "pair_04",
+      "animal": "G3-4",
+      "date": "20260926",
+      "iou_percent": 89.66443141189924,
+      "dice_percent": 94.55060260315508,
+      "iou_label": "89.66%",
+      "source_image": "sources/pair_04_supplied_overlay.jpg",
+      "source_sha256": "48690ad455d655d5424f6269e20819107d423e3ffd971ffaaedc7595b8571fe9",
+      "source_header_height_px": 296,
+      "display_rotation_deg": -10.0,
+      "rotated_image_size_px": [
+        1112,
+        1110
+      ],
+      "crop_box_after_rotation_px": [
+        193,
+        192,
+        933,
+        932
+      ],
+      "display_rotation_matrix": [
+        [
+          0.984807753012208,
+          -0.17364817766693033
+        ],
+        [
+          0.17364817766693033,
+          0.984807753012208
+        ]
+      ],
+      "max_pairwise_distance_change_px": 4.192202140984591e-13,
+      "all_detected_grid_lines_inside_crop": true,
+      "source_photo_covers_entire_crop": true,
+      "native_panel_size_px": [
+        740,
+        740
+      ],
+      "panel_path": "panels/pair_04_photo.png",
+      "panel_sha256": "0e57b67b63158246f84f810d320bffdff16edb17f1b73290d2a4dd66ab28fa3f",
+      "registration_gate_pass": false
+    },
+    {
+      "pair": "pair_05",
+      "animal": "G3-2",
+      "date": "20260926",
+      "iou_percent": 87.03479622197598,
+      "dice_percent": 93.06802582197768,
+      "iou_label": "87.03%",
+      "source_image": "sources/pair_05_supplied_overlay.jpg",
+      "source_sha256": "f3e24807ec09113396549db20e3807842ecf62df32d508d2cae98250169beaa3",
+      "source_header_height_px": 296,
+      "display_rotation_deg": -7.0,
+      "rotated_image_size_px": [
+        1070,
+        1066
+      ],
+      "crop_box_after_rotation_px": [
+        154,
+        151,
+        920,
+        917
+      ],
+      "display_rotation_matrix": [
+        [
+          0.992546151641322,
+          -0.12186934340514748
+        ],
+        [
+          0.12186934340514748,
+          0.992546151641322
+        ]
+      ],
+      "max_pairwise_distance_change_px": 3.410605131648481e-13,
+      "all_detected_grid_lines_inside_crop": true,
+      "source_photo_covers_entire_crop": true,
+      "native_panel_size_px": [
+        766,
+        766
+      ],
+      "panel_path": "panels/pair_05_photo.png",
+      "panel_sha256": "10e33c276edcdd4e1014b7f7f937e92a79035ec410a0dfe82fb09b7f91b33b99",
+      "registration_gate_pass": false
+    }
+  ],
+  "figures": [
+    {
+      "stem": "FigR_photographic_overlays",
+      "width_mm": 180,
+      "height_mm": 137,
+      "source_photo_dpi_at_final_size": [
+        363.6297263840866,
+        392.05361335211484,
+        389.11321125197406,
+        362.6495923507064,
+        375.39133478465004
+      ],
+      "exports": {
+        "exports/FigR_photographic_overlays.svg": "9a45c6ad3e403ff4a0d94bf3385ffd95fc3d9f13d32b45d83bd545911aa6fa8d",
+        "exports/FigR_photographic_overlays.pdf": "bbce40fb61d7fa66e18316da46d428581e51253a28cd28d99ecaf3aeac353940",
+        "exports/FigR_photographic_overlays.png": "ae6a843635aaef66e1cbcac8b99fa41ddec5e77b3f36f348c289757643f24c8a"
+      },
+      "preview": "exports/FigR_photographic_overlays_preview.png"
+    },
+    {
+      "stem": "FigR_photographic_overlays_AB",
+      "width_mm": 132,
+      "height_mm": 83,
+      "source_photo_dpi_at_final_size": [
+        306.3794823232323,
+        330.3282828282828
+      ],
+      "exports": {
+        "exports/FigR_photographic_overlays_AB.svg": "3d7bceaff6b79de52d716c8756bcf4fe0e1cc47451e82bdcaf4981f62ee0c617",
+        "exports/FigR_photographic_overlays_AB.pdf": "ae7973feb4ef132e27ae5cee63a5bad812adacfdd501ebef7ac1007b84d8be48",
+        "exports/FigR_photographic_overlays_AB.png": "00c1f624d3febbcc021f4dab0bb26fcef26aebb390eec233fe2e9828a4a7740f"
+      },
+      "preview": "exports/FigR_photographic_overlays_AB_preview.png"
+    },
+    {
+      "stem": "FigR_photographic_overlays_CDE",
+      "width_mm": 180,
+      "height_mm": 76,
+      "source_photo_dpi_at_final_size": [
+        364.13722222222225,
+        339.37222222222226,
+        351.29611111111114
+      ],
+      "exports": {
+        "exports/FigR_photographic_overlays_CDE.svg": "298efb800f998fe23794c4f97ebb08215c0996bbbf2f7d18d53367e6285fd263",
+        "exports/FigR_photographic_overlays_CDE.pdf": "ecc7c02093592c1494e66770f1a6a6ccef155fbdb461fb8dfb07581b5fe26ac5",
+        "exports/FigR_photographic_overlays_CDE.png": "e5bbd9104bb8cbab49f70b012a92dc65a414766e8684ebe99d1ede93ae219460"
+      },
+      "preview": "exports/FigR_photographic_overlays_CDE_preview.png"
+    },
+    {
+      "stem": "pair_01_20260927_G3-2_IoU_94.48",
+      "width_mm": 64,
+      "height_mm": 76,
+      "source_photo_dpi_at_final_size": [
+        315.90345289976534
+      ],
+      "exports": {
+        "exports/pair_01_20260927_G3-2_IoU_94.48.svg": "dcbac4e2e265b31cb4238e1dc4f11f776d797fbbae546e986226ccb5e8fea8e8",
+        "exports/pair_01_20260927_G3-2_IoU_94.48.pdf": "6dfe212ec9a09201bddccd2132d092b1bcc129ca3217f375113e563f5088274a",
+        "exports/pair_01_20260927_G3-2_IoU_94.48.png": "9fa13595888393a8fe68632e5bbd40f7be3d0203f07cd6344a6296b38208c116"
+      },
+      "preview": "exports/pair_01_20260927_G3-2_IoU_94.48_preview.png"
+    },
+    {
+      "stem": "pair_02_20260928_G4-5_IoU_90.65",
+      "width_mm": 64,
+      "height_mm": 76,
+      "source_photo_dpi_at_final_size": [
+        340.5967147167281
+      ],
+      "exports": {
+        "exports/pair_02_20260928_G4-5_IoU_90.65.svg": "376783b39ca70c39001aee527a299f80129a4603a7ef23b1cdffc99a291b4f1a",
+        "exports/pair_02_20260928_G4-5_IoU_90.65.pdf": "bfc4a8d17f3dc1ad39a479204749e31cd49bdeeaefb323f3aa21f70dfc92afc3",
+        "exports/pair_02_20260928_G4-5_IoU_90.65.png": "4423c151bd75bc4aa0f4ce54b16b0c61cf8d6c9f5c3f569c8f72793e3f2bb40b"
+      },
+      "preview": "exports/pair_02_20260928_G4-5_IoU_90.65_preview.png"
+    },
+    {
+      "stem": "pair_03_20260924_G4-1_IoU_90.32",
+      "width_mm": 64,
+      "height_mm": 76,
+      "source_photo_dpi_at_final_size": [
+        338.04223935635264
+      ],
+      "exports": {
+        "exports/pair_03_20260924_G4-1_IoU_90.32.svg": "e12da7f781ff443fadc9ab45af30e9a31aa014450afd8f1c7e05feb725569b35",
+        "exports/pair_03_20260924_G4-1_IoU_90.32.pdf": "a6674a107f8c9cb0752692d4e3a7cf44586a5fc6e1f33fa608d47c49e12c50b1",
+        "exports/pair_03_20260924_G4-1_IoU_90.32.png": "f208fb6177837db3d2b0aac28088aface912999540a3ce2e48faaf613e8f7423"
+      },
+      "preview": "exports/pair_03_20260924_G4-1_IoU_90.32_preview.png"
+    },
+    {
+      "stem": "pair_04_20260926_G3-4_IoU_89.66",
+      "width_mm": 64,
+      "height_mm": 76,
+      "source_photo_dpi_at_final_size": [
+        315.0519611129735
+      ],
+      "exports": {
+        "exports/pair_04_20260926_G3-4_IoU_89.66.svg": "14e3604e30e834dd3ca63109c4fd580a93aa81f6188c7dd1c5e0420b00e62294",
+        "exports/pair_04_20260926_G3-4_IoU_89.66.pdf": "7b097fe6abd2953d51791102ba6a7700cce5badc70435fd2955e654bd8959a4c",
+        "exports/pair_04_20260926_G3-4_IoU_89.66.png": "5f1c6999ab57c472c4f6c7a60237bc4f5b52e81f4825c2f9c7dce4c711093516"
+      },
+      "preview": "exports/pair_04_20260926_G3-4_IoU_89.66_preview.png"
+    },
+    {
+      "stem": "pair_05_20260926_G3-2_IoU_87.03",
+      "width_mm": 64,
+      "height_mm": 76,
+      "source_photo_dpi_at_final_size": [
+        326.1213543412672
+      ],
+      "exports": {
+        "exports/pair_05_20260926_G3-2_IoU_87.03.svg": "c1db82b3027bbb210799bd2cba519ea18aa91a31b97e7b5d2cec1d67a7f43a2b",
+        "exports/pair_05_20260926_G3-2_IoU_87.03.pdf": "81929d082e9f2e1f0a6180c73e33d63f77a879ccbbab3c2998bc2001159e2f17",
+        "exports/pair_05_20260926_G3-2_IoU_87.03.png": "874d58c38539af507a3c79ff27328266766d83761c2fa46efdeaa392202e8e79"
+      },
+      "preview": "exports/pair_05_20260926_G3-2_IoU_87.03_preview.png"
+    }
+  ],
+  "source_records_sha256": "84daeeb21d90057c2527031e743e9e31366b4d1590f46281e098d0b69999e86f",
+  "generator_sha256": "ac625230bd24a4e6d658188917be442c5569edf95076fff17320430e54757eb4"
+}

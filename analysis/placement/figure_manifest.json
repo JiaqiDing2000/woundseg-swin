@@ -1,0 +1,82 @@
+{
+  "purpose": "Revised registered grid-footprint geometric comparisons for reviewer correspondence",
+  "method": "Existing overlay geometry restored to the independently registered coordinate frame",
+  "source_records": [
+    {
+      "file": "sources/pair_01_source.json",
+      "sha256": "87cbf72af2f2c5a63796463630f15ae7664f7c3091a1b18cf1f2c7c8ea090cb2"
+    },
+    {
+      "file": "sources/pair_02_source.json",
+      "sha256": "9adb1eb3ea3d383fe22aefea54573500844a840b1deb0fba4996a2a43b3a3f51"
+    },
+    {
+      "file": "sources/pair_03_source.json",
+      "sha256": "5d52686de174c5e7dbc529506f11826b6fb46b19a14a1a1856156ec53d40d4f2"
+    },
+    {
+      "file": "sources/pair_04_source.json",
+      "sha256": "9e91f819fdc60c23e929c3971c3d78dc5366f5a09ee103b78b1d6fb423aef629"
+    },
+    {
+      "file": "sources/pair_05_source.json",
+      "sha256": "f9f476fc7dcaf3956915b6c1a09cb3eb06c4705061d9b343e15d86a0816ced7d"
+    }
+  ],
+  "products": [
+    {
+      "stem": "FigR_placement_registered",
+      "width_mm": 180,
+      "height_mm": 95,
+      "files": {
+        "exports/FigR_placement_registered.pdf": "cb693809812af3849ef76efa6f14e8c2f34bfe085ba9fa688cc34acbdb688ad1",
+        "exports/FigR_placement_registered.svg": "c377d26b48746d28b4acbf35797a542a0cdfbb902caae25f30c0191bd9e2fe12",
+        "exports/FigR_placement_registered.png": "03df935255f5c7e24caae3b20f97c18e3ea5ec21ed19cf928cef85529803b9c4"
+      },
+      "preview": "exports/FigR_placement_registered_preview.png"
+    },
+    {
+      "stem": "FigR_placement_exploratory",
+      "width_mm": 180,
+      "height_mm": 77,
+      "files": {
+        "exports/FigR_placement_exploratory.pdf": "d590b99450db52dec7eaa2b4d2157b7f67b41069aaddfded31cc9b4719bcba24",
+        "exports/FigR_placement_exploratory.svg": "361c5138d61102cae9a1bd099b62838df0752fb58f32bc08e75937a84bebe87a",
+        "exports/FigR_placement_exploratory.png": "99ae165b85b7c97fcbdd7b9d83686c6b740fb81b57c553a25127597d5c384192"
+      },
+      "preview": "exports/FigR_placement_exploratory_preview.png"
+    },
+    {
+      "stem": "FigR_placement_all_five",
+      "width_mm": 180,
+      "height_mm": 192,
+      "files": {
+        "exports/FigR_placement_all_five.pdf": "bd4060a2778defbcba343bec0930c4bbc609f607e6c4b040f43fcc0309a35bcb",
+        "exports/FigR_placement_all_five.svg": "a2ef2e00698c5da7b922fe06fe36a12aed41217172e677a558e1d67d47b76ed2",
+        "exports/FigR_placement_all_five.png": "9c974e52f8abed959c70783dba53ed5b0b968a85b0c561779a96e29dd275185d"
+      },
+      "preview": "exports/FigR_placement_all_five_preview.png"
+    }
+  ],
+  "numerical_checks": {
+    "maximum_baseline_difference_percentage_points": 2.0310797765432653e-05,
+    "maximum_angle_search_difference_percentage_points": 3.231747909637761e-05,
+    "tolerance_percentage_points": 0.0001,
+    "all_checks_passed": true,
+    "full_footprints_inside_display": true
+  },
+  "rendering": {
+    "font": "DejaVu Sans",
+    "raster_dpi": 600,
+    "svg_editable_text": true
+  },
+  "photographs": {
+    "raw_paired_photos_available": false,
+    "existing_composite_photos_retain_original_transform_and_metrics": true,
+    "photographic_panels_in_new_exports": false
+  },
+  "visual_review": {
+    "status": "pending"
+  },
+  "script_sha256": "1a54cfcca426b0c43143d93207db71600985c08e583b931c1c82d5fbd8a53a99"
+}

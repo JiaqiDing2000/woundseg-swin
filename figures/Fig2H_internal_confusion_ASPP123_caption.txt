@@ -1,0 +1,1 @@
+Fig. 2H. Tissue segmentation on the internal wound dataset. The confusion matrix is row-normalized within each seed and then averaged over six training seeds (1001–1006). Rows denote reference labels and columns denote predictions. Evaluation uses the 35-image internal development evaluation subset with ground-truth-assisted 256 × 256 ROI preprocessing.

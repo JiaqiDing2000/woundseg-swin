@@ -1,0 +1,1044 @@
+{
+  "status": "passed",
+  "images": 100,
+  "animals": 21,
+  "checks": [
+    "asset SHA-256",
+    "native mask dimensions and class labels",
+    "per-class pixel counts",
+    "30-mm calibration endpoints",
+    "mask-derived tissue and wound areas",
+    "unchanged manual reference",
+    "recorded and recalculated statistics",
+    "spreadsheet values",
+    "natural animal/day order",
+    "relative paths",
+    "figure export hashes"
+  ],
+  "statistics": {
+    "n": 100,
+    "pearson_r": 0.9984788152200725,
+    "ols_r2": 0.9969599444432797,
+    "slope": 1.0069399047134795,
+    "intercept_mm2": 0.61027302839531,
+    "prediction_r2": 0.9966249555274639,
+    "mae_mm2": 8.567387646098883,
+    "rmse_mm2": 9.981077727398459,
+    "mape_pct": 4.899430716037388,
+    "bias_mm2": 2.6342118488401804,
+    "sample_sd_mm2": 9.675692783684381,
+    "lower_descriptive_limit_mm2": -16.330146007181206,
+    "upper_descriptive_limit_mm2": 21.598569704861568,
+    "median_absolute_error_mm2": 8.727014986346731,
+    "max_absolute_error_mm2": 16.787275900329064,
+    "within_10pct": 86,
+    "within_20pct": 97,
+    "manual_min_mm2": 49.265,
+    "manual_max_mm2": 642.551,
+    "automated_min_mm2": 35.416416539781345,
+    "automated_max_mm2": 656.6580966646258
+  },
+  "image_checks": [
+    {
+      "key": "G1-1_D03",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 17653,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-1_D05",
+      "native_shape": [
+        408,
+        720
+      ],
+      "wound_pixels": 8734,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-1_D09",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 7641,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-2_D05",
+      "native_shape": [
+        408,
+        720
+      ],
+      "wound_pixels": 11332,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-2_D11",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 6450,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-3_D01",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 19103,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-3_D03",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 15028,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-3_D05",
+      "native_shape": [
+        408,
+        720
+      ],
+      "wound_pixels": 8828,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-3_D07",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 10662,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-3_D11",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 5399,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-3_D13",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 4011,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-5_D03",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 17988,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-5_D07",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 10433,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-5_D11",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 7014,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-5_D15",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 2004,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-6_D01",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 20228,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-6_D03",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 14528,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-6_D05",
+      "native_shape": [
+        408,
+        720
+      ],
+      "wound_pixels": 7177,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-6_D07",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 8432,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-6_D09",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 7378,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-6_D11",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 3922,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G1-6_D13",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 2818,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-4_D01",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 19083,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-4_D03",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 20304,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-4_D05",
+      "native_shape": [
+        408,
+        720
+      ],
+      "wound_pixels": 10241,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-4_D09",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 9705,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-4_D11",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 5238,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-4_D13",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 4149,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-5_D03",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 22587,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-5_D05",
+      "native_shape": [
+        408,
+        720
+      ],
+      "wound_pixels": 9890,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-5_D07",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 11673,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-5_D09",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 9932,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-5_D11",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 5679,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-5_D13",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 4059,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-6_D01",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 18760,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-6_D03",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 18453,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-6_D07",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 10455,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-6_D09",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 8389,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-6_D11",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 4892,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-6_D13",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 3077,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-10_D11",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 4966,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-10_D13",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 3242,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-11_D07",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 7423,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-11_D11",
+      "native_shape": [
+        480,
+        720
+      ],
+      "wound_pixels": 3582,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G2-11_D15",
+      "native_shape": [
+        720,
+        480
+      ],
+      "wound_pixels": 1549,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-1_D01",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 653107,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-1_D03",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 939311,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-1_D11",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 248781,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-1_D13",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 196031,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-1_D15",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 220192,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-3_D01",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 574924,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-3_D15",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 140562,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-4_D01",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 708907,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-4_D05",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 459208,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-4_D07",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 426885,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-4_D09",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 350512,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-4_D11",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 299087,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-4_D13",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 108598,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-4_D15",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 113039,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-5_D01",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 651382,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-5_D03",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 786661,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-5_D05",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 399054,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-5_D07",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 380311,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-5_D09",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 226055,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-5_D11",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 195260,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-5_D13",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 87251,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-5_D15",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 78630,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-6_D11",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 232851,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G3-6_D15",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 120974,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-1_D01",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 586145,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-1_D03",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 1025031,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-1_D05",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 540232,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-1_D07",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 501260,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-1_D09",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 427562,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-1_D11",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 438254,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-1_D13",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 134868,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-1_D15",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 153257,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-2_D01",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 668284,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-2_D09",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 350370,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-2_D15",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 157800,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-3_D01",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 966062,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-3_D13",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 202691,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-3_D15",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 155477,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-4_D01",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 641142,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-4_D03",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 668085,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-4_D07",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 381610,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-4_D09",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 274538,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-4_D11",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 266152,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-4_D13",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 112980,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-4_D15",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 93308,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-5_D01",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 607437,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-5_D05",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 435208,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-5_D07",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 395095,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-5_D11",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 194295,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-5_D13",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 82726,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-5_D15",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 59923,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-6_D01",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 597437,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-6_D09",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 295820,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-6_D11",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 231532,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    },
+    {
+      "key": "G4-6_D15",
+      "native_shape": [
+        2432,
+        3648
+      ],
+      "wound_pixels": 117372,
+      "all_asset_hashes_match": true,
+      "manual_area_unchanged": true
+    }
+  ],
+  "scope": "Reproduction of the released 100-image selected subset; candidate-set selection history is recorded in provenance."
+}

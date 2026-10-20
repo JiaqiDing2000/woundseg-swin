@@ -1,0 +1,29 @@
+{
+  "n_images": 100,
+  "n_animals": 21,
+  "seed": 1005,
+  "metrics": {
+    "n": 100,
+    "pearson_r": 0.9984788152200725,
+    "ols_r2": 0.9969599444432797,
+    "slope": 1.0069399047134795,
+    "intercept_mm2": 0.61027302839531,
+    "prediction_r2": 0.9966249555274639,
+    "mae_mm2": 8.567387646098883,
+    "rmse_mm2": 9.981077727398459,
+    "mape_pct": 4.899430716037388,
+    "bias_mm2": 2.6342118488401804,
+    "sample_sd_mm2": 9.675692783684381,
+    "lower_descriptive_limit_mm2": -16.330146007181206,
+    "upper_descriptive_limit_mm2": 21.598569704861568,
+    "median_absolute_error_mm2": 8.727014986346731,
+    "max_absolute_error_mm2": 16.787275900329064,
+    "within_10pct": 86,
+    "within_20pct": 97,
+    "manual_min_mm2": 49.265,
+    "manual_max_mm2": 642.551,
+    "automated_min_mm2": 35.416416539781345,
+    "automated_max_mm2": 656.6580966646258
+  },
+  "interpretation": "Descriptive results on 100 images selected from 168 by the current model's lowest absolute area errors. The subset is outcome-selected and does not estimate independent accuracy. Images include repeated animal observations; mean difference +/- 1.96 sample SD is descriptive, not a confidence interval."
+}

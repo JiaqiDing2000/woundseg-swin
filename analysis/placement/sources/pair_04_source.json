@@ -1,0 +1,631 @@
+{
+  "selection": "best_original",
+  "source": {
+    "date": "20260926",
+    "group": "G3-4",
+    "job": "G3-4_335",
+    "before": "archived_photo_sources/20260926\\G3-4\\微信图片_20260925114958_334_238.jpg",
+    "after": "archived_photo_sources/20260926\\G3-4\\微信图片_20260925114958_335_238.jpg",
+    "after_sha256": "09e3c7ed9634438a21da43b79c88db07cdb485ae48d49fa948b938e099342cfe",
+    "output": "archived_photo_sources/20260926\\摆放批量结果\\G3-4\\G3-4_335",
+    "status": "EXPLORATORY",
+    "registration_gate_pass": false,
+    "registration_reasons": [
+      "Spatial holdout RMSE exceeds 30 px"
+    ],
+    "observed": {
+      "iou_percent": 89.46684459616766,
+      "dice_percent": 94.4406339661787,
+      "reference_covered_percent": 95.01757012567711,
+      "actual_inside_reference_percent": 93.8706617075376,
+      "mean_cell_iou_percent": 72.26451997908421,
+      "projected_area_ratio": 1.0122179645618437,
+      "projected_area_ratio_percent": 101.22179645618436,
+      "center_error_mm": 0.8042797844937483,
+      "direction_error_deg_modulo_90": 1.3291646942222997,
+      "mean_cell_center_error_mm": 0.8081868930539484,
+      "max_cell_center_error_mm": 1.098213196764314,
+      "rms_cell_center_error_mm": 0.8310284937397476,
+      "normalized_center_rms_error": 0.12465427406096213,
+      "reference_neighbor_pitch_px": 232.0,
+      "equal_area_scale": 0.9939464332799705,
+      "equal_area_iou_percent": 89.43813632707564,
+      "equal_area_dice_percent": 94.42463704631854,
+      "equal_area_reference_covered_percent": 94.42465257134364,
+      "equal_area_actual_inside_reference_percent": 94.42462152129856,
+      "native_grid_affine_rms_px": 1.452113736070143,
+      "native_grid_affine_rms_percent_of_pitch": 0.6228696790719824,
+      "native_grid_projective_rms_px": 1.4021135272988001,
+      "native_grid_projective_rms_percent_of_pitch": 0.6014225890697746,
+      "native_grid_row_col_axis_angle_deg": 89.99062686041839,
+      "native_grid_pitch_aspect_ratio": 1.0231987617988048
+    },
+    "best_original": {
+      "reference_deg": 10.0,
+      "setup_deg": 10.0,
+      "iou_percent": 89.66443141189924,
+      "dice_percent": 94.55060260315508,
+      "reference_covered_percent": 95.12821552411832,
+      "actual_inside_reference_percent": 93.97996181109735,
+      "mean_cell_iou_percent": 72.69453133363555,
+      "overlay": "ref_+10.0deg/setup_+10.0deg_IoU_089.66pct.jpg",
+      "metrics_json": "ref_+10.0deg/setup_+10.0deg_metrics.json",
+      "projected_area_ratio": 1.0122180695851843,
+      "projected_area_ratio_percent": 101.22180695851843,
+      "center_error_mm": 0.8042800975687087,
+      "direction_error_deg_modulo_90": 1.3291646942222997,
+      "mean_cell_center_error_mm": 0.8102010805202496,
+      "max_cell_center_error_mm": 1.0857778450355973,
+      "rms_cell_center_error_mm": 0.8310287967376159,
+      "normalized_center_rms_error": 0.12465431951064246,
+      "reference_neighbor_pitch_px": 231.99999999999983,
+      "equal_area_scale": 0.9939463817161914,
+      "equal_area_iou_percent": 89.63620593854972,
+      "equal_area_dice_percent": 94.53490750347083,
+      "equal_area_reference_covered_percent": 94.53491092635674,
+      "equal_area_actual_inside_reference_percent": 94.53490408058516,
+      "native_grid_affine_rms_px": 1.452113736070143,
+      "native_grid_affine_rms_percent_of_pitch": 0.6228696790719824,
+      "native_grid_projective_rms_px": 1.4021135272988001,
+      "native_grid_projective_rms_percent_of_pitch": 0.6014225890697746,
+      "native_grid_row_col_axis_angle_deg": 89.99062686041839,
+      "native_grid_pitch_aspect_ratio": 1.0231987617988048
+    },
+    "best_equal_area": {
+      "reference_deg": 10.0,
+      "setup_deg": 9.0,
+      "iou_percent": 89.61228900669546,
+      "dice_percent": 94.52160456069505,
+      "reference_covered_percent": 95.09904380082726,
+      "actual_inside_reference_percent": 93.95113539440848,
+      "mean_cell_iou_percent": 72.86663192840328,
+      "overlay": "ref_+10.0deg/setup_+09.0deg_IoU_089.61pct.jpg",
+      "metrics_json": "ref_+10.0deg/setup_+09.0deg_metrics.json",
+      "projected_area_ratio": 1.012218142991033,
+      "projected_area_ratio_percent": 101.2218142991033,
+      "center_error_mm": 0.8042800700268548,
+      "direction_error_deg_modulo_90": 2.3291646942222997,
+      "mean_cell_center_error_mm": 0.8253164787913709,
+      "max_cell_center_error_mm": 1.2510457450916457,
+      "rms_cell_center_error_mm": 0.869984505458171,
+      "normalized_center_rms_error": 0.13049767581872573,
+      "reference_neighbor_pitch_px": 231.99999999999983,
+      "equal_area_scale": 0.9939463456757986,
+      "equal_area_iou_percent": 89.65377107469877,
+      "equal_area_dice_percent": 94.54467534883544,
+      "equal_area_reference_covered_percent": 94.54467139016465,
+      "equal_area_actual_inside_reference_percent": 94.54467930750656,
+      "native_grid_affine_rms_px": 1.452113736070143,
+      "native_grid_affine_rms_percent_of_pitch": 0.6228696790719824,
+      "native_grid_projective_rms_px": 1.4021135272988001,
+      "native_grid_projective_rms_percent_of_pitch": 0.6014225890697746,
+      "native_grid_row_col_axis_angle_deg": 89.99062686041839,
+      "native_grid_pitch_aspect_ratio": 1.0231987617988048
+    },
+    "daily_mouse_selected": true,
+    "daily_mouse_candidate_count": 1,
+    "daily_mouse_winner_job": "G3-4_335",
+    "daily_mouse_selection_reason": "同日同鼠原始最高IoU"
+  },
+  "metrics": {
+    "footprint": {
+      "iou": 0.8966443141189925,
+      "dice": 0.9455060260315509,
+      "reference_covered": 0.9512821552411832,
+      "actual_inside_reference": 0.9397996181109736,
+      "reference_area_px2": 484416.0168054104,
+      "actual_area_px2": 490334.64540691674,
+      "intersection_area_px2": 460816.3125
+    },
+    "center_offset_px": [
+      -18.8094749703223,
+      -20.72642824132481
+    ],
+    "center_offset_mm": [
+      -0.5405021543196064,
+      -0.595587018428874
+    ],
+    "center_error_mm": 0.8042800975687087,
+    "angle_error_deg_modulo_90": 1.3291646942222997,
+    "mean_cell_center_error_mm": 0.8102010805202496,
+    "direction_error_deg_modulo_90": 1.3291646942222997,
+    "direction_error_definition": "Signed direction difference wrapped to [-45, 45) degrees for the unlabeled square grid; not a verified head-tail or electrical-channel orientation.",
+    "projected_area_ratio": 1.0122180695851843,
+    "projected_area_ratio_percent": 101.22180695851843,
+    "projected_area_ratio_definition": "Registered actual two-dimensional convex grid footprint area divided by reference footprint area; can reflect scale, projection, deformation, or extraction error and is not a flatness percentage.",
+    "equal_area_normalization": {
+      "scale": 0.9939463817161914,
+      "actual_centroid_registered_px": [
+        1472.1905250296777,
+        2218.273571758675
+      ],
+      "actual_boundary_scaled_registered_px": [
+        [
+          1072.2791687570116,
+          1931.2504692513912
+        ],
+        [
+          1768.2596013635618,
+          1825.1130325081149
+        ],
+        [
+          1872.1018813023438,
+          2505.29667426596
+        ],
+        [
+          1176.1214486957936,
+          2611.434111009236
+        ]
+      ],
+      "footprint": {
+        "iou": 0.8963620593854972,
+        "dice": 0.9453490750347083,
+        "reference_covered": 0.9453491092635674,
+        "actual_inside_reference": 0.9453490408058517,
+        "reference_area_px2": 484416.0168054104,
+        "actual_area_px2": 484416.051884532,
+        "intersection_area_px2": 457942.25
+      },
+      "definition": "Hypothetical isotropic scaling of the actual registered boundary about the mean of its nine registered centers to match reference area; translation and direction are held fixed. Does not correct perspective, anisotropic compression, or measure three-dimensional flatness."
+    },
+    "rms_cell_center_error_mm": 0.8310287967376159,
+    "reference_neighbor_pitch_px": 231.99999999999983,
+    "normalized_center_rms_error": 0.12465431951064246,
+    "normalized_center_rms_definition": "RMS distance of matched registered actual and reference centers divided by median reference nearest-neighbor pitch, using the same correspondence as the cell metrics. Includes displacement, rotation, scale, and deformation; not an isolated flatness measure.",
+    "max_cell_center_error_mm": 1.0857778450355973,
+    "mean_cell_iou": 0.7269453133363556,
+    "cells": [
+      {
+        "reference_index": 0,
+        "actual_index": 6,
+        "reference_center_px": [
+          1302.8109785198956,
+          2507.76177591756
+        ],
+        "actual_center_registered_px": [
+          1274.4520067037215,
+          2482.79219127121
+        ],
+        "dx_mm": -0.8149129832233927,
+        "dy_mm": -0.7175168001824738,
+        "center_error_px": 37.78506900723878,
+        "center_error_mm": 1.0857778450355973,
+        "iou": 0.6370399387458401
+      },
+      {
+        "reference_index": 1,
+        "actual_index": 3,
+        "reference_center_px": [
+          1262.5246013011679,
+          2279.286377218728
+        ],
+        "actual_center_registered_px": [
+          1239.8485632734605,
+          2253.9532649746543
+        ],
+        "dx_mm": -0.6516102881525105,
+        "dy_mm": -0.727962995519357,
+        "center_error_px": 33.99954818236359,
+        "center_error_mm": 0.9769985109874596,
+        "iou": 0.6708974247375764
+      },
+      {
+        "reference_index": 2,
+        "actual_index": 0,
+        "reference_center_px": [
+          1222.23822408244,
+          2050.8109785198953
+        ],
+        "actual_center_registered_px": [
+          1203.7473491565615,
+          2026.4487821018402
+        ],
+        "dx_mm": -0.5313469806286901,
+        "dy_mm": -0.7000631154613561,
+        "center_error_px": 30.584784940168866,
+        "center_error_mm": 0.8788731304646227,
+        "iou": 0.7065439366437005
+      },
+      {
+        "reference_index": 3,
+        "actual_index": 7,
+        "reference_center_px": [
+          1531.2863772187277,
+          2467.475398698832
+        ],
+        "actual_center_registered_px": [
+          1506.0016267198566,
+          2444.890999277065
+        ],
+        "dx_mm": -0.7265732901974444,
+        "dy_mm": -0.648976994878365,
+        "center_error_px": 33.90241444251537,
+        "center_error_mm": 0.9742073115665337,
+        "iou": 0.6876913352396025
+      },
+      {
+        "reference_index": 4,
+        "actual_index": 4,
+        "reference_center_px": [
+          1491.0,
+          2239.0
+        ],
+        "actual_center_registered_px": [
+          1470.63062606545,
+          2217.674380952525
+        ],
+        "dx_mm": -0.5853268371997101,
+        "dy_mm": -0.6128051450423823,
+        "center_error_px": 29.490564969894113,
+        "center_error_mm": 0.8474300278705206,
+        "iou": 0.724635369176503
+      },
+      {
+        "reference_index": 5,
+        "actual_index": 1,
+        "reference_center_px": [
+          1450.713622781272,
+          2010.5246013011679
+        ],
+        "actual_center_registered_px": [
+          1436.5480483726033,
+          1989.0760199108931
+        ],
+        "dx_mm": -0.4070567358812879,
+        "dy_mm": -0.6163385456975501,
+        "center_error_px": 25.70418530089551,
+        "center_error_mm": 0.7386260143935492,
+        "iou": 0.7636154077294084
+      },
+      {
+        "reference_index": 6,
+        "actual_index": 8,
+        "reference_center_px": [
+          1759.7617759175603,
+          2427.1890214801047
+        ],
+        "actual_center_registered_px": [
+          1740.5156426561734,
+          2412.445364899965
+        ],
+        "dx_mm": -0.5530498063616905,
+        "dy_mm": -0.4236682925327439,
+        "center_error_px": 24.244361300478733,
+        "center_error_mm": 0.6966770488643315,
+        "iou": 0.7428264804202063
+      },
+      {
+        "reference_index": 7,
+        "actual_index": 5,
+        "reference_center_px": [
+          1719.4753986988324,
+          2198.713622781272
+        ],
+        "actual_center_registered_px": [
+          1706.2464439186033,
+          2181.2299728257103
+        ],
+        "dx_mm": -0.3801423787422144,
+        "dy_mm": -0.502403734355223,
+        "center_error_px": 21.924489967749764,
+        "center_error_mm": 0.6300140795330392,
+        "iou": 0.7832518634359181
+      },
+      {
+        "reference_index": 8,
+        "actual_index": 2,
+        "reference_center_px": [
+          1679.1890214801044,
+          1970.23822408244
+        ],
+        "actual_center_registered_px": [
+          1671.7244184006677,
+          1955.9511696142151
+        ],
+        "dx_mm": -0.21450008848956198,
+        "dy_mm": -0.41054754219036854,
+        "center_error_px": 16.119560307637414,
+        "center_error_mm": 0.4632057559665924,
+        "iou": 0.8260060638984452
+      }
+    ],
+    "actual_boundary_registered_px": [
+      [
+        1069.8435135317723,
+        1929.5023585553056
+      ],
+      [
+        1770.0628064526236,
+        1822.7184930513993
+      ],
+      [
+        1874.5375365275831,
+        2507.0447849620455
+      ],
+      [
+        1174.3182436067318,
+        2613.828650465952
+      ]
+    ],
+    "actual_centers_registered_px": [
+      [
+        1203.7473491565615,
+        2026.4487821018402
+      ],
+      [
+        1436.5480483726033,
+        1989.0760199108931
+      ],
+      [
+        1671.7244184006677,
+        1955.9511696142151
+      ],
+      [
+        1239.8485632734605,
+        2253.9532649746543
+      ],
+      [
+        1470.63062606545,
+        2217.674380952525
+      ],
+      [
+        1706.2464439186033,
+        2181.2299728257103
+      ],
+      [
+        1274.4520067037215,
+        2482.79219127121
+      ],
+      [
+        1506.0016267198566,
+        2444.890999277065
+      ],
+      [
+        1740.5156426561734,
+        2412.445364899965
+      ]
+    ],
+    "actual_cells_registered_px": [
+      [
+        [
+          1069.8435135317723,
+          1929.5023585553056
+        ],
+        [
+          1303.2499445053895,
+          1893.90773672067
+        ],
+        [
+          1338.0748545303763,
+          2122.0165006908856
+        ],
+        [
+          1104.668423556759,
+          2157.611122525521
+        ]
+      ],
+      [
+        [
+          1303.2499445053895,
+          1893.90773672067
+        ],
+        [
+          1536.6563754790068,
+          1858.3131148860346
+        ],
+        [
+          1571.4812855039931,
+          2086.4218788562503
+        ],
+        [
+          1338.0748545303763,
+          2122.0165006908856
+        ]
+      ],
+      [
+        [
+          1536.6563754790068,
+          1858.3131148860346
+        ],
+        [
+          1770.0628064526236,
+          1822.7184930513993
+        ],
+        [
+          1804.8877164776104,
+          2050.8272570216145
+        ],
+        [
+          1571.4812855039931,
+          2086.4218788562503
+        ]
+      ],
+      [
+        [
+          1104.668423556759,
+          2157.611122525521
+        ],
+        [
+          1338.0748545303763,
+          2122.0165006908856
+        ],
+        [
+          1372.8997645553627,
+          2350.125264661101
+        ],
+        [
+          1139.4933335817454,
+          2385.7198864957363
+        ]
+      ],
+      [
+        [
+          1338.0748545303763,
+          2122.0165006908856
+        ],
+        [
+          1571.4812855039931,
+          2086.4218788562503
+        ],
+        [
+          1606.3061955289795,
+          2314.5306428264657
+        ],
+        [
+          1372.8997645553627,
+          2350.125264661101
+        ]
+      ],
+      [
+        [
+          1571.4812855039931,
+          2086.4218788562503
+        ],
+        [
+          1804.8877164776104,
+          2050.8272570216145
+        ],
+        [
+          1839.7126265025968,
+          2278.9360209918304
+        ],
+        [
+          1606.3061955289795,
+          2314.5306428264657
+        ]
+      ],
+      [
+        [
+          1139.4933335817454,
+          2385.7198864957363
+        ],
+        [
+          1372.8997645553627,
+          2350.125264661101
+        ],
+        [
+          1407.724674580349,
+          2578.2340286313165
+        ],
+        [
+          1174.3182436067318,
+          2613.828650465952
+        ]
+      ],
+      [
+        [
+          1372.8997645553627,
+          2350.125264661101
+        ],
+        [
+          1606.3061955289795,
+          2314.5306428264657
+        ],
+        [
+          1641.1311055539663,
+          2542.639406796681
+        ],
+        [
+          1407.724674580349,
+          2578.2340286313165
+        ]
+      ],
+      [
+        [
+          1606.3061955289795,
+          2314.5306428264657
+        ],
+        [
+          1839.7126265025968,
+          2278.9360209918304
+        ],
+        [
+          1874.5375365275831,
+          2507.0447849620455
+        ],
+        [
+          1641.1311055539663,
+          2542.639406796681
+        ]
+      ]
+    ],
+    "center_offset_definition": "Projection of the mean of nine native actual centers minus the mean of nine reference cell centers",
+    "correspondence": "Fixed user-defined head-tail spatial labels; does not verify electrical channel identity"
+  },
+  "projection_diagnostics": {
+    "native_setup_grid": {
+      "mean_pitch_px": 233.1328341802826,
+      "affine_rms_px": 1.452113736070143,
+      "affine_rms_percent_of_pitch": 0.6228696790719824,
+      "projective_rms_px": 1.4021135272988001,
+      "projective_rms_percent_of_pitch": 0.6014225890697746,
+      "row_col_axis_angle_deg": 89.99062686041839,
+      "pitch_aspect_ratio": 1.0231987617988048,
+      "threshold_variant_count": 3,
+      "definition": "九个实际电极中心在摆放原图中的平面投影模型RMS残差，除以平均行列间距；越小越规则，不是三维平整度，也不代表位置准确率。"
+    },
+    "physical_flatness": {
+      "available": false,
+      "rms_mm": null,
+      "max_deviation_mm": null,
+      "reason": "缺少经标定的多视角或深度数据，无法测量器件到拟合三维平面的高度偏差。"
+    },
+    "perspective_correction": {
+      "available": false,
+      "reason": "现有配对未提供经核实的共同局部平面标记或相机/曲面模型；等面积缩放不等于透视校正。"
+    }
+  },
+  "H_after_to_before": [
+    [
+      1.0012026353748382,
+      0.011406188140118203,
+      -37.702471964830515
+    ],
+    [
+      -0.011406188140118203,
+      1.0012026353748382,
+      24.156088116733855
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "before_to_photo_body": [
+    [
+      0.8868812785100559,
+      0.15638109808654138,
+      -1184.3721992082183
+    ],
+    [
+      -0.15638109808654138,
+      0.8868812785100559,
+      -1268.9607139298528
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "after_to_photo_body": [
+    [
+      0.8861641610825406,
+      0.16668510224769056,
+      -1211.0483985822134
+    ],
+    [
+      -0.16668510224769056,
+      0.8861641610825406,
+      -1244.8661884644591
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "body_starts_at_y": 296,
+  "definition": "Frozen independently registered source photos. Original and hypothetical equal-area selections are separate. Positive angles counterclockwise."
+}

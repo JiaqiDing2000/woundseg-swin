@@ -1,0 +1,9 @@
+{
+  "width_mm": 85.0,
+  "height_mm": 75.0,
+  "raster_dpi": 600,
+  "preview_dpi": 180,
+  "svg_text_editable": true,
+  "font": "Arimo",
+  "text_outside_figure": []
+}

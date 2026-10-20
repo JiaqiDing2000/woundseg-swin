@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="141.732283pt" viewBox="0 0 518.740157 141.732283" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-21T00:27:12.311833</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 141.732283 
+L 518.740157 141.732283 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 2.4 24.686713 
+L 125.745638 24.686713 
+L 125.745638 1.596999 
+L 2.4 1.596999 
+z
+" style="fill: #e8eff6; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font: 700 8px 'Arimo'; text-anchor: start" x="14.734564" y="15.210606" transform="rotate(-0 14.734564 15.210606)">Tissue</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 125.745638 24.686713 
+L 223.394268 24.686713 
+L 223.394268 1.596999 
+L 125.745638 1.596999 
+z
+" style="fill: #e8eff6; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font: 700 8px 'Arimo'; text-anchor: middle" x="174.569953" y="15.210606" transform="rotate(-0 174.569953 15.210606)">IoU (%)</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 223.394268 24.686713 
+L 321.042898 24.686713 
+L 321.042898 1.596999 
+L 223.394268 1.596999 
+z
+" style="fill: #e8eff6; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font: 700 8px 'Arimo'; text-anchor: middle" x="272.218583" y="15.210606" transform="rotate(-0 272.218583 15.210606)">DSC (%)</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 321.042898 24.686713 
+L 418.691528 24.686713 
+L 418.691528 1.596999 
+L 321.042898 1.596999 
+z
+" style="fill: #e8eff6; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font: 700 8px 'Arimo'; text-anchor: middle" x="369.867213" y="15.210606" transform="rotate(-0 369.867213 15.210606)">Precision (%)</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 418.691528 24.686713 
+L 516.340157 24.686713 
+L 516.340157 1.596999 
+L 418.691528 1.596999 
+z
+" style="fill: #e8eff6; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font: 700 8px 'Arimo'; text-anchor: middle" x="467.515843" y="15.210606" transform="rotate(-0 467.515843 15.210606)">Recall (%)</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 2.4 47.776427 
+L 125.745638 47.776427 
+L 125.745638 24.686713 
+L 2.4 24.686713 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font: 8px 'Arimo'; text-anchor: start" x="14.734564" y="38.30032" transform="rotate(-0 14.734564 38.30032)">Background</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 125.745638 47.776427 
+L 223.394268 47.776427 
+L 223.394268 24.686713 
+L 125.745638 24.686713 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="174.569953" y="38.30032" transform="rotate(-0 174.569953 38.30032)">98.38 ± 0.17</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 223.394268 47.776427 
+L 321.042898 47.776427 
+L 321.042898 24.686713 
+L 223.394268 24.686713 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="272.218583" y="38.30032" transform="rotate(-0 272.218583 38.30032)">99.18 ± 0.09</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 321.042898 47.776427 
+L 418.691528 47.776427 
+L 418.691528 24.686713 
+L 321.042898 24.686713 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="369.867213" y="38.30032" transform="rotate(-0 369.867213 38.30032)">99.36 ± 0.19</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 418.691528 47.776427 
+L 516.340157 47.776427 
+L 516.340157 24.686713 
+L 418.691528 24.686713 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="467.515843" y="38.30032" transform="rotate(-0 467.515843 38.30032)">99.01 ± 0.20</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 2.4 70.866142 
+L 125.745638 70.866142 
+L 125.745638 47.776427 
+L 2.4 47.776427 
+z
+" style="fill: #ffffff; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font: 8px 'Arimo'; text-anchor: start" x="14.734564" y="61.390035" transform="rotate(-0 14.734564 61.390035)">Epithelial</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 125.745638 70.866142 
+L 223.394268 70.866142 
+L 223.394268 47.776427 
+L 125.745638 47.776427 
+z
+" style="fill: #ffffff; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="174.569953" y="61.390035" transform="rotate(-0 174.569953 61.390035)">39.74 ± 13.34</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 223.394268 70.866142 
+L 321.042898 70.866142 
+L 321.042898 47.776427 
+L 223.394268 47.776427 
+z
+" style="fill: #ffffff; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="272.218583" y="61.390035" transform="rotate(-0 272.218583 61.390035)">55.80 ± 13.59</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 321.042898 70.866142 
+L 418.691528 70.866142 
+L 418.691528 47.776427 
+L 321.042898 47.776427 
+z
+" style="fill: #ffffff; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="369.867213" y="61.390035" transform="rotate(-0 369.867213 61.390035)">44.66 ± 13.42</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 418.691528 70.866142 
+L 516.340157 70.866142 
+L 516.340157 47.776427 
+L 418.691528 47.776427 
+z
+" style="fill: #ffffff; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="467.515843" y="61.390035" transform="rotate(-0 467.515843 61.390035)">82.09 ± 22.59</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 2.4 93.955856 
+L 125.745638 93.955856 
+L 125.745638 70.866142 
+L 2.4 70.866142 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font: 8px 'Arimo'; text-anchor: start" x="14.734564" y="84.479749" transform="rotate(-0 14.734564 84.479749)">Granulation</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 125.745638 93.955856 
+L 223.394268 93.955856 
+L 223.394268 70.866142 
+L 125.745638 70.866142 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="174.569953" y="84.479749" transform="rotate(-0 174.569953 84.479749)">87.62 ± 1.34</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 223.394268 93.955856 
+L 321.042898 93.955856 
+L 321.042898 70.866142 
+L 223.394268 70.866142 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="272.218583" y="84.479749" transform="rotate(-0 272.218583 84.479749)">93.40 ± 0.76</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 321.042898 93.955856 
+L 418.691528 93.955856 
+L 418.691528 70.866142 
+L 321.042898 70.866142 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_19">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="369.867213" y="84.479749" transform="rotate(-0 369.867213 84.479749)">94.57 ± 0.87</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 418.691528 93.955856 
+L 516.340157 93.955856 
+L 516.340157 70.866142 
+L 418.691528 70.866142 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="467.515843" y="84.479749" transform="rotate(-0 467.515843 84.479749)">92.28 ± 1.60</text>
+    </g>
+    <g id="patch_22">
+     <path d="M 2.4 117.04557 
+L 125.745638 117.04557 
+L 125.745638 93.955856 
+L 2.4 93.955856 
+z
+" style="fill: #ffffff; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_21">
+     <text style="font: 8px 'Arimo'; text-anchor: start" x="14.734564" y="107.569463" transform="rotate(-0 14.734564 107.569463)">Necrotic</text>
+    </g>
+    <g id="patch_23">
+     <path d="M 125.745638 117.04557 
+L 223.394268 117.04557 
+L 223.394268 93.955856 
+L 125.745638 93.955856 
+z
+" style="fill: #ffffff; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_22">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="174.569953" y="107.569463" transform="rotate(-0 174.569953 107.569463)">89.62 ± 0.96</text>
+    </g>
+    <g id="patch_24">
+     <path d="M 223.394268 117.04557 
+L 321.042898 117.04557 
+L 321.042898 93.955856 
+L 223.394268 93.955856 
+z
+" style="fill: #ffffff; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_23">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="272.218583" y="107.569463" transform="rotate(-0 272.218583 107.569463)">94.52 ± 0.54</text>
+    </g>
+    <g id="patch_25">
+     <path d="M 321.042898 117.04557 
+L 418.691528 117.04557 
+L 418.691528 93.955856 
+L 321.042898 93.955856 
+z
+" style="fill: #ffffff; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_24">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="369.867213" y="107.569463" transform="rotate(-0 369.867213 107.569463)">92.59 ± 1.65</text>
+    </g>
+    <g id="patch_26">
+     <path d="M 418.691528 117.04557 
+L 516.340157 117.04557 
+L 516.340157 93.955856 
+L 418.691528 93.955856 
+z
+" style="fill: #ffffff; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_25">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="467.515843" y="107.569463" transform="rotate(-0 467.515843 107.569463)">96.57 ± 1.18</text>
+    </g>
+    <g id="patch_27">
+     <path d="M 2.4 140.135285 
+L 125.745638 140.135285 
+L 125.745638 117.04557 
+L 2.4 117.04557 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_26">
+     <text style="font: 8px 'Arimo'; text-anchor: start" x="14.734564" y="130.659177" transform="rotate(-0 14.734564 130.659177)">Pus</text>
+    </g>
+    <g id="patch_28">
+     <path d="M 125.745638 140.135285 
+L 223.394268 140.135285 
+L 223.394268 117.04557 
+L 125.745638 117.04557 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_27">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="174.569953" y="130.659177" transform="rotate(-0 174.569953 130.659177)">52.12 ± 11.89</text>
+    </g>
+    <g id="patch_29">
+     <path d="M 223.394268 140.135285 
+L 321.042898 140.135285 
+L 321.042898 117.04557 
+L 223.394268 117.04557 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_28">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="272.218583" y="130.659177" transform="rotate(-0 272.218583 130.659177)">67.88 ± 9.93</text>
+    </g>
+    <g id="patch_30">
+     <path d="M 321.042898 140.135285 
+L 418.691528 140.135285 
+L 418.691528 117.04557 
+L 321.042898 117.04557 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_29">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="369.867213" y="130.659177" transform="rotate(-0 369.867213 130.659177)">75.34 ± 10.56</text>
+    </g>
+    <g id="patch_31">
+     <path d="M 418.691528 140.135285 
+L 516.340157 140.135285 
+L 516.340157 117.04557 
+L 418.691528 117.04557 
+z
+" style="fill: #f5f7fa; stroke: #ced6df; stroke-width: 0.4; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_30">
+     <text style="font: 8px 'Arimo'; text-anchor: middle" x="467.515843" y="130.659177" transform="rotate(-0 467.515843 130.659177)">62.34 ± 11.36</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

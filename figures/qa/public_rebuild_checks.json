@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "input_photographs_masks_overlays": 0,
+  "area_statistics_match_original": true,
+  "area_svg_geometry_and_text_match_original": true,
+  "placement_svg_byte_identical": true,
+  "full_photo_checks_unchanged": true,
+  "plots_only_check_scope_is_explicit": true,
+  "local_photo_option_fails_before_render_without_required_inputs": true,
+  "local_photo_missing_inputs": 105,
+  "default_rebuild_inputs": "Published CSV/JSON and self-contained photographic SVG; separate raw photographs are not required."
+}

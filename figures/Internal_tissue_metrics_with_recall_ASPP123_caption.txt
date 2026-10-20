@@ -1,0 +1,1 @@
+Class-wise segmentation performance including recall. The model and evaluation protocol are identical to Fig. S2. Circles denote six training seeds (1001–1006); diamonds and whiskers denote the mean and sample standard deviation. This four-metric layout adds recall to the original IoU, DSC and precision presentation.

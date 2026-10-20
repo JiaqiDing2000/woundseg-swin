@@ -1,0 +1,27 @@
+{
+  "n_images": 100,
+  "n_animals": 21,
+  "metrics": {
+    "n": 100,
+    "pearson_r": 0.998478815220072,
+    "ols_r2": 0.9969599444432786,
+    "slope": 1.0069399047134788,
+    "intercept_mm2": 0.6102730283952923,
+    "prediction_r2": 0.9966249555274639,
+    "mae_mm2": 8.567387646098885,
+    "rmse_mm2": 9.981077727398459,
+    "mape_pct": 4.899430716037389,
+    "bias_mm2": 2.634211848840181,
+    "sample_sd_mm2": 9.675692783684381,
+    "lower_descriptive_limit_mm2": -16.330146007181206,
+    "upper_descriptive_limit_mm2": 21.598569704861568,
+    "median_absolute_error_mm2": 8.727014986346731,
+    "max_absolute_error_mm2": 16.787275900329064,
+    "within_10pct": 86,
+    "within_20pct": 97,
+    "manual_min_mm2": 49.265,
+    "manual_max_mm2": 642.551,
+    "automated_min_mm2": 35.416416539781345,
+    "automated_max_mm2": 656.6580966646258
+  }
+}

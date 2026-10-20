@@ -1,0 +1,62 @@
+{
+  "model": "DASP-AG-SwinUNet",
+  "aspp_rates": [
+    1,
+    2,
+    3
+  ],
+  "training_recipe": "Balanced image sampling and cross-entropy plus Tversky loss",
+  "checkpoint_selection": {
+    "seed": 1005,
+    "validation_mIoU": 0.8269780487026205,
+    "best_epoch": 46,
+    "checkpoint_sha256": "70a7f1dd7abda040ebff42964d34f911315edb4193186202a4ef158c41ab23f3",
+    "selection_rule": "Highest recorded validation mIoU across the six final-B seeds; ties resolved by ascending seed. No area measurements used."
+  },
+  "inference": {
+    "input_size": 256,
+    "native_tile_size": 512,
+    "tile_overlap": 0.25,
+    "global_probability_weight": 0.5,
+    "tile_batch_size": 2,
+    "amp": false,
+    "aspp_rates": [
+      1,
+      2,
+      3
+    ],
+    "class_names": [
+      "Background",
+      "Epithelial",
+      "Granulation",
+      "Necrotic",
+      "Pus"
+    ],
+    "global_preprocessing": "Image-only aspect-preserving letterbox; ImageNet normalization",
+    "coordinates": "EXIF-oriented native pixels; remove letterbox padding before restoring logits",
+    "orientation": "Original UI v11 image-only orientation rule; inverse rotation for saved masks",
+    "gt_roi_used": false,
+    "manual_area_used_for_inference": false,
+    "old_prediction_used_for_inference": false,
+    "postprocessing": "Argmax of fused probabilities; all non-background components retained"
+  },
+  "class_labels": {
+    "0": "Background",
+    "1": "Epithelial",
+    "2": "Granulation",
+    "3": "Necrotic",
+    "4": "Pus"
+  },
+  "source_results_sha256": "7be1ff4f886d2f7e1daadd9d69369a783e0026c552e8746d55742cd8d20c3558",
+  "source_reference_sha256": "b7cc84b5a0b2d6e2ef8e2abd7b70b06136c0648103cac0a23262ebb0b78b7d30",
+  "source_statistics_sha256": "d0d971d2dea991fca33112daa9d6112425c5700268317ca94599e3df45a9c993",
+  "manual_reference_sha256": "1c780e0b36d27581871b6cf51069f153e46004839d29f73e2c961ffd06a6166d",
+  "measurements_sha256": "4590e0ccbe212916f7acbce80bd5888326bd9855a809480abb489203e95e41bb",
+  "source_mapping_sha256": "03887399593f6069b3c736e2e17ff7e9acaa8466ca0b8220c220eae75eaecd75",
+  "asset_processing": {
+    "images": "Byte-for-byte copies; original EXIF metadata retained.",
+    "masks": "Byte-for-byte copies of native-resolution predicted class-label PNGs.",
+    "overlays": "Byte-for-byte copies of display previews; foreground label colors blended at 45%, cyan line marks the 30-mm span."
+  },
+  "package_scope": "Area recalculation, descriptive statistics, figures and released prediction masks. Model weights and training/inference implementations are not included."
+}

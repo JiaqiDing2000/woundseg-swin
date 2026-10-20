@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "visual_review_count": 2,
+  "reviewed_artifacts": [
+    "exports/FigR_photographic_overlays_preview.png",
+    "exports/FigR_photographic_overlays_AB_preview.png",
+    "exports/FigR_photographic_overlays_CDE_preview.png",
+    "exports/pair_01_20260927_G3-2_IoU_94.48_preview.png",
+    "exports/pdf_render_check.png"
+  ],
+  "source_iou_values_preserved_exactly": true,
+  "independent_pixel_reconstruction": {
+    "pairs_checked": 5,
+    "all_native_panels_pixel_identical": true,
+    "minimum_grid_boundary_margin_px": 29,
+    "all_crop_pixels_within_source_photograph": true
+  },
+  "layout": {
+    "grid_boundaries_fully_visible": true,
+    "recommended_grid_edges_parallel_to_frame": true,
+    "labels_and_legend_clear": true,
+    "angle_annotations_in_display": false,
+    "minimum_effective_source_photo_dpi": 306.3794823232323
+  },
+  "remaining_display_defects": []
+}

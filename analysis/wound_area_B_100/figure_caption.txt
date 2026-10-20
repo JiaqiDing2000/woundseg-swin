@@ -1,0 +1,1 @@
+(K) Automated versus manual wound areas in 100 selected images (selection described in Methods). Grey dashed line, identity (y = x); orange solid line, linear regression. Pearson r = 0.9985; R² = 0.9970. (L) Bland–Altman plot of the same measurements. Orange line, mean difference (+2.63 mm²); grey dashed lines, mean ± 1.96 SD (-16.33 to +21.60 mm²).

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "sources/supplied_photo_composites/pair_01_supplied_overlay.jpg",
+    "source_path": "Wound/Overlay_top5/01_20260927_G3-2_359_IoU_94.48pct_配准通过.jpg",
+    "sha256": "535b547a4b6119e621773cc7bd6c4fecbdc6d43e642f767c9120ae9fddc332a1",
+    "status": "Supplied angle-optimized composite, retained unchanged. Not used as the photograph for the newly reconstructed registered comparison."
+  },
+  {
+    "file": "sources/supplied_photo_composites/pair_02_supplied_overlay.jpg",
+    "source_path": "Wound/Overlay_top5/02_20260928_G4-5_396_IoU_90.65pct_配准通过.jpg",
+    "sha256": "3441efe33c12c8a064dc36e4e762164b6cf3e8e496dcc3e4755075db72b666e5",
+    "status": "Supplied angle-optimized composite, retained unchanged. Not used as the photograph for the newly reconstructed registered comparison."
+  },
+  {
+    "file": "sources/supplied_photo_composites/pair_03_supplied_overlay.jpg",
+    "source_path": "Wound/Overlay_top5/03_20260924_G4-1_candidate_IoU_90.32pct_仅供检查.jpg",
+    "sha256": "4b0baf695edb8a68d5fde0e19089a236f393da17817608abde05facaefa62147",
+    "status": "Supplied angle-optimized composite, retained unchanged. Not used as the photograph for the newly reconstructed registered comparison."
+  },
+  {
+    "file": "sources/supplied_photo_composites/pair_04_supplied_overlay.jpg",
+    "source_path": "Wound/Overlay_top5/04_20260926_G3-4_335_IoU_89.66pct_仅供检查.jpg",
+    "sha256": "48690ad455d655d5424f6269e20819107d423e3ffd971ffaaedc7595b8571fe9",
+    "status": "Supplied angle-optimized composite, retained unchanged. Not used as the photograph for the newly reconstructed registered comparison."
+  },
+  {
+    "file": "sources/supplied_photo_composites/pair_05_supplied_overlay.jpg",
+    "source_path": "Wound/Overlay_top5/05_20260926_G3-2_333_IoU_87.03pct_仅供检查.jpg",
+    "sha256": "f3e24807ec09113396549db20e3807842ecf62df32d508d2cae98250169beaa3",
+    "status": "Supplied angle-optimized composite, retained unchanged. Not used as the photograph for the newly reconstructed registered comparison."
+  }
+]
