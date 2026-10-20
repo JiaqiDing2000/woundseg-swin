@@ -1,0 +1,129 @@
+{
+  "dataset_pairs": 351,
+  "image_files": 351,
+  "mask_files": 351,
+  "unique_decoded_rgb": 342,
+  "split_counts": {
+    "train": 286,
+    "valid": 30,
+    "test": 35
+  },
+  "duplicate_groups": 9,
+  "cross_split_duplicate_groups": 6,
+  "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc",
+  "data_binary_bytes": 52513735,
+  "checkpoint_count": 6,
+  "checkpoint_total_bytes": 5503465386,
+  "weights": [
+    {
+      "seed": 1001,
+      "path": "weights/seed_1001.pth",
+      "sha256": "97fb66ed3dd8536909e502310e53060b8bef43176c41d076ad3f50e6421b8ccb",
+      "bytes": 917244231,
+      "source_sha256": "97fb66ed3dd8536909e502310e53060b8bef43176c41d076ad3f50e6421b8ccb",
+      "best_epoch": 57,
+      "best_validation_mIoU": 0.8221883699762851,
+      "model": "ASPP-AG-SwinUNet",
+      "scheme": "aspp_small_rates",
+      "aspp_rates": [
+        1,
+        2,
+        3
+      ],
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc"
+    },
+    {
+      "seed": 1002,
+      "path": "weights/seed_1002.pth",
+      "sha256": "054ae912735bbbe903e751c15f569e2b9c107d6c594ed5bfc470d67be5212ffd",
+      "bytes": 917244231,
+      "source_sha256": "054ae912735bbbe903e751c15f569e2b9c107d6c594ed5bfc470d67be5212ffd",
+      "best_epoch": 57,
+      "best_validation_mIoU": 0.8181361763457806,
+      "model": "ASPP-AG-SwinUNet",
+      "scheme": "aspp_small_rates",
+      "aspp_rates": [
+        1,
+        2,
+        3
+      ],
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc"
+    },
+    {
+      "seed": 1003,
+      "path": "weights/seed_1003.pth",
+      "sha256": "59a01d129427d5357d1c8901b2b8f8410cca04bb5335e5c3a749d488a70a6d25",
+      "bytes": 917244231,
+      "source_sha256": "59a01d129427d5357d1c8901b2b8f8410cca04bb5335e5c3a749d488a70a6d25",
+      "best_epoch": 59,
+      "best_validation_mIoU": 0.7961336064559832,
+      "model": "ASPP-AG-SwinUNet",
+      "scheme": "aspp_small_rates",
+      "aspp_rates": [
+        1,
+        2,
+        3
+      ],
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc"
+    },
+    {
+      "seed": 1004,
+      "path": "weights/seed_1004.pth",
+      "sha256": "6c5f1f4cabfae672f666cc28b87139aeb607f62bebf3d5a2ee5b7cb88b5504b1",
+      "bytes": 917244231,
+      "source_sha256": "6c5f1f4cabfae672f666cc28b87139aeb607f62bebf3d5a2ee5b7cb88b5504b1",
+      "best_epoch": 59,
+      "best_validation_mIoU": 0.8104809042323613,
+      "model": "ASPP-AG-SwinUNet",
+      "scheme": "aspp_small_rates",
+      "aspp_rates": [
+        1,
+        2,
+        3
+      ],
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc"
+    },
+    {
+      "seed": 1005,
+      "path": "weights/seed_1005.pth",
+      "sha256": "70a7f1dd7abda040ebff42964d34f911315edb4193186202a4ef158c41ab23f3",
+      "bytes": 917244231,
+      "source_sha256": "70a7f1dd7abda040ebff42964d34f911315edb4193186202a4ef158c41ab23f3",
+      "best_epoch": 46,
+      "best_validation_mIoU": 0.8269780487026205,
+      "model": "ASPP-AG-SwinUNet",
+      "scheme": "aspp_small_rates",
+      "aspp_rates": [
+        1,
+        2,
+        3
+      ],
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc"
+    },
+    {
+      "seed": 1006,
+      "path": "weights/seed_1006.pth",
+      "sha256": "221e01538f4f9e59a0a95f734b2d2fef51295b44e053f8564b5d5bb8ca399446",
+      "bytes": 917244231,
+      "source_sha256": "221e01538f4f9e59a0a95f734b2d2fef51295b44e053f8564b5d5bb8ca399446",
+      "best_epoch": 60,
+      "best_validation_mIoU": 0.8056645710074075,
+      "model": "ASPP-AG-SwinUNet",
+      "scheme": "aspp_small_rates",
+      "aspp_rates": [
+        1,
+        2,
+        3
+      ],
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc"
+    }
+  ],
+  "checks": {
+    "all_702_image_mask_files_match_source_hash": true,
+    "all_six_weights_match_source_hash": true,
+    "rgb_modes_and_image_mask_geometry_validated": true,
+    "mask_values_validated": true,
+    "no_symbolic_links": true,
+    "six_recomputed_confusion_matrices_match_original_metrics": true
+  }
+}

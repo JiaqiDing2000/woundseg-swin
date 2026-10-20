@@ -1,0 +1,37 @@
+{
+  "figure": "Figure2B_architecture",
+  "physical_size_mm": [
+    183,
+    116
+  ],
+  "font": "DejaVu Sans",
+  "font_pt_min": 7,
+  "raster_dpi": 600,
+  "gpu_used": false,
+  "editable_sources": [
+    "architecture.reviewed.yaml",
+    "render_architecture.py",
+    "../../figures/Figure2B_architecture.svg"
+  ],
+  "files": {
+    "plotting/architecture/architecture.reviewed.yaml": "ba6915efd3f6423e6950a2a398657a0b3abb2ee96b232b0bba8aeb70c808e941",
+    "plotting/architecture/render_architecture.py": "709c9e4812b73439864b084ed21876d5abcfb99e7b92323201b6efbf2c5aff2d",
+    "plotting/architecture/caption.txt": "e9455cb33e714b3635dfe661e7e653372b1ae9f6407c8b197a25e08305ac3e1b",
+    "figures/Figure2B_architecture-preview.png": "f9dcfc05f2a84f436117bd42076026aa43d5530a408cb988f5eaf2d0cfce5a49",
+    "figures/Figure2B_architecture.pdf": "1bec1321bbceee6e8a12184184811b12d15008034865ed567ab3dcfe81bae82c",
+    "figures/Figure2B_architecture.png": "3f4e7717b318c8ec35a96858776d5f6ed017f8363ddddf57c01dded2be20eb1b",
+    "figures/Figure2B_architecture.svg": "e4881543793b4a96e01eb160c9ed62d58db88003e3b1d01e9cc94a370aea071f"
+  },
+  "visual_review": {
+    "status": "passed",
+    "passes": 2,
+    "evidence": "../../figures/qa/Figure2B_architecture_svg_render.png",
+    "checks": [
+      "diagram labels readable",
+      "no clipping",
+      "source graph retained",
+      "SVG rendering checked"
+    ],
+    "remaining_defects": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "tag": "v1.0.0",
+  "assets": [
+    {
+      "name": "seed_1001.pth",
+      "local_path": "weights/seed_1001.pth",
+      "group": "weights",
+      "seed": 1001,
+      "extract": false,
+      "bytes": 917244231,
+      "sha256": "97fb66ed3dd8536909e502310e53060b8bef43176c41d076ad3f50e6421b8ccb"
+    },
+    {
+      "name": "seed_1002.pth",
+      "local_path": "weights/seed_1002.pth",
+      "group": "weights",
+      "seed": 1002,
+      "extract": false,
+      "bytes": 917244231,
+      "sha256": "054ae912735bbbe903e751c15f569e2b9c107d6c594ed5bfc470d67be5212ffd"
+    },
+    {
+      "name": "seed_1003.pth",
+      "local_path": "weights/seed_1003.pth",
+      "group": "weights",
+      "seed": 1003,
+      "extract": false,
+      "bytes": 917244231,
+      "sha256": "59a01d129427d5357d1c8901b2b8f8410cca04bb5335e5c3a749d488a70a6d25"
+    },
+    {
+      "name": "seed_1004.pth",
+      "local_path": "weights/seed_1004.pth",
+      "group": "weights",
+      "seed": 1004,
+      "extract": false,
+      "bytes": 917244231,
+      "sha256": "6c5f1f4cabfae672f666cc28b87139aeb607f62bebf3d5a2ee5b7cb88b5504b1"
+    },
+    {
+      "name": "seed_1005.pth",
+      "local_path": "weights/seed_1005.pth",
+      "group": "weights",
+      "seed": 1005,
+      "extract": false,
+      "bytes": 917244231,
+      "sha256": "70a7f1dd7abda040ebff42964d34f911315edb4193186202a4ef158c41ab23f3"
+    },
+    {
+      "name": "seed_1006.pth",
+      "local_path": "weights/seed_1006.pth",
+      "group": "weights",
+      "seed": 1006,
+      "extract": false,
+      "bytes": 917244231,
+      "sha256": "221e01538f4f9e59a0a95f734b2d2fef51295b44e053f8564b5d5bb8ca399446"
+    },
+    {
+      "name": "internal_dataset.zip",
+      "local_path": "release_assets/internal_dataset.zip",
+      "group": "internal",
+      "extract": true,
+      "bytes": 51364748,
+      "sha256": "a057b71f3e753b3871316f02ba4fd8c0f80b4154db6ad4749bc0bff9cfa86d18"
+    }
+  ]
+}
