@@ -1,0 +1,82 @@
+{
+  "seed": 1002,
+  "confusion_counts": [
+    [
+      1920962,
+      13028,
+      7603,
+      1725,
+      165
+    ],
+    [
+      363,
+      12791,
+      140,
+      0,
+      0
+    ],
+    [
+      11600,
+      13202,
+      244962,
+      1755,
+      1178
+    ],
+    [
+      823,
+      30,
+      1251,
+      49917,
+      0
+    ],
+    [
+      0,
+      92,
+      3310,
+      0,
+      8863
+    ]
+  ],
+  "matches_original_counts": true,
+  "count_differences": [],
+  "original_aggregates": {
+    "mIoU": 0.7429584348909355,
+    "mDSC": 0.827814738611466,
+    "mPrecision": 0.8151153404135861,
+    "mRecall": 0.9062098572256214,
+    "mSpecificity": 0.9887426053645971,
+    "mF2": 0.8585952874936534,
+    "PixelAcc": 0.9754704066684842,
+    "MeanAcc": 0.9062098572256214,
+    "FWIoU": 0.9599338134865464
+  },
+  "recomputed_aggregates": {
+    "mIoU": 0.7429584348909355,
+    "mDSC": 0.827814738611466,
+    "mPrecision": 0.8151153404135861,
+    "mRecall": 0.9062098572256214,
+    "mSpecificity": 0.9887426053645971,
+    "mF2": 0.8585952874936534,
+    "PixelAcc": 0.9754704066684842,
+    "MeanAcc": 0.9062098572256214,
+    "FWIoU": 0.9599338134865464
+  },
+  "source_result": "results/final_b/seed_1002/test_results.json",
+  "source_result_sha256": "2e3e050adc7da25f0a73335d02630c93a3fc7981b6c7ea0fa67d480f3b79111c",
+  "checkpoint": "weights/seed_1002.pth",
+  "checkpoint_sha256": "054ae912735bbbe903e751c15f569e2b9c107d6c594ed5bfc470d67be5212ffd",
+  "original_counts_png": "historical_source:Wound_70/runs/aspp_small_rates/figures/dasp_ag_swinunet/seed_1002/confusion_matrix_counts.png",
+  "original_counts_png_sha256": "b477cc3b8957e282b53067af2589b755ebf82a2f71b9978a78283b04727c8e99",
+  "device": "cpu",
+  "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc",
+  "software": {
+    "python": "3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]",
+    "torch": "2.6.0+cu124",
+    "numpy": "1.26.4",
+    "platform": "Linux-5.14.0-687.23.1.el9_8.x86_64-x86_64-with-glibc2.35"
+  },
+  "original_historical_source_sha256": "807dadfdd31eb8b3168988b563c4b8a1d8d63a0f9f0d9256539e0175f5347836",
+  "script_sha256": "43cb171304fdb010896c56ca8edfbedaeb3aa4cefe23d2018d624fc1f4632909",
+  "elapsed_seconds": 7.483915766235441,
+  "path_base": "repository root"
+}

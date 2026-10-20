@@ -1,0 +1,93 @@
+{
+  "model": "unet",
+  "seed": 1005,
+  "best_val_mIoU": 0.7615943813600872,
+  "test_aggregates": {
+    "mIoU": 0.6649710010087881,
+    "mDSC": 0.759971749299529,
+    "mPrecision": 0.7290822904220203,
+    "mRecall": 0.8307044353678691,
+    "mSpecificity": 0.9874655197711346,
+    "mF2": 0.7935174804433351,
+    "PixelAcc": 0.9722926548548683,
+    "MeanAcc": 0.8307044353678691,
+    "FWIoU": 0.9549207606844476
+  },
+  "test_per_class": {
+    "Background": {
+      "TP": 1922558,
+      "TN": 336246,
+      "FP": 14031,
+      "FN": 20925,
+      "Precision": 0.9927547868958777,
+      "Recall": 0.9892332477309558,
+      "Specificity": 0.9599431307219829,
+      "DSC": 0.9909908888288416,
+      "F2": 0.9899355554660662,
+      "IoU": 0.9821426564509382,
+      "Accuracy": 0.9847603934151355
+    },
+    "Epithelial": {
+      "TP": 10362,
+      "TN": 2258481,
+      "FP": 21985,
+      "FN": 2932,
+      "Precision": 0.3203388258561216,
+      "Recall": 0.7794493756523284,
+      "Specificity": 0.9903594265382167,
+      "DSC": 0.4540654236312656,
+      "F2": 0.6058019480132761,
+      "IoU": 0.29371580827037697,
+      "Accuracy": 0.9891370500836622
+    },
+    "Granulation": {
+      "TP": 241393,
+      "TN": 2005712,
+      "FP": 15351,
+      "FN": 31304,
+      "Precision": 0.9402089240640715,
+      "Recall": 0.8852059245239643,
+      "Specificity": 0.992404492091489,
+      "DSC": 0.9118787551396829,
+      "F2": 0.8956855941082739,
+      "IoU": 0.8380304671440739,
+      "Accuracy": 0.9796600341796448
+    },
+    "Necrotic": {
+      "TP": 49069,
+      "TN": 2236879,
+      "FP": 4860,
+      "FN": 2952,
+      "Precision": 0.909881510873723,
+      "Recall": 0.9432536860096052,
+      "Specificity": 0.9978320402151634,
+      "DSC": 0.9262671071251286,
+      "F2": 0.9363848358665653,
+      "IoU": 0.8626606423922528,
+      "Accuracy": 0.9965942382812065
+    },
+    "Pus": {
+      "TP": 6824,
+      "TN": 2274168,
+      "FP": 7327,
+      "FN": 5441,
+      "Precision": 0.48222740442030787,
+      "Recall": 0.5563799429224918,
+      "Specificity": 0.9967885092888217,
+      "DSC": 0.5166565717727262,
+      "F2": 0.5397794687624942,
+      "IoU": 0.34830543078629894,
+      "Accuracy": 0.9944335937499565
+    }
+  },
+  "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc",
+  "historical_source_sha256": "807dadfdd31eb8b3168988b563c4b8a1d8d63a0f9f0d9256539e0175f5347836",
+  "evaluation_context": {
+    "role": "performance_informed_development_split",
+    "test_performance_used_for_membership": true,
+    "independent_test": false,
+    "selection_audit": "selection_audit.json"
+  },
+  "metric_domain": "historical_gt_roi_256",
+  "baseline_settings": "W41 unchanged"
+}

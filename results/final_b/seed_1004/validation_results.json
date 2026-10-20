@@ -1,0 +1,133 @@
+{
+  "best_val_mIoU": 0.8104809042323613,
+  "best_epoch": 59,
+  "validation_aggregates": {
+    "mIoU": 0.8104809042323613,
+    "mDSC": 0.8888179824003469,
+    "mPrecision": 0.8515037661308209,
+    "mRecall": 0.9326653141976962,
+    "mSpecificity": 0.9937921925596198,
+    "mF2": 0.914231967904521,
+    "PixelAcc": 0.9824193318684397,
+    "MeanAcc": 0.9326653141976962,
+    "FWIoU": 0.9677710869733144
+  },
+  "validation_per_class": {
+    "Background": {
+      "TP": 1542579,
+      "TN": 395113,
+      "FP": 5933,
+      "FN": 22455,
+      "Precision": 0.996168579901157,
+      "Recall": 0.9856520689006766,
+      "Specificity": 0.9852061858238244,
+      "DSC": 0.9908824215219242,
+      "F2": 0.9877375699352694,
+      "IoU": 0.9819296013219259,
+      "Accuracy": 0.9855611165364082
+    },
+    "Epithelial": {
+      "TP": 28820,
+      "TN": 1921264,
+      "FP": 11369,
+      "FN": 4627,
+      "Precision": 0.7171116474639401,
+      "Recall": 0.861661733486227,
+      "Specificity": 0.9941173518199786,
+      "DSC": 0.7827692976250981,
+      "F2": 0.828270403558615,
+      "IoU": 0.6430739021763587,
+      "Accuracy": 0.9918640136718246
+    },
+    "Granulation": {
+      "TP": 347060,
+      "TN": 1598405,
+      "FP": 14137,
+      "FN": 6478,
+      "Precision": 0.9608606937485746,
+      "Recall": 0.9816766514487886,
+      "Specificity": 0.9912330965642452,
+      "DSC": 0.971157142157447,
+      "F2": 0.9774416185211484,
+      "IoU": 0.9439314612086914,
+      "Accuracy": 0.9895146687825018
+    },
+    "Necrotic": {
+      "TP": 4350,
+      "TN": 1959565,
+      "FP": 1565,
+      "FN": 600,
+      "Precision": 0.7354184277136869,
+      "Recall": 0.8787878787701255,
+      "Specificity": 0.9992019906889906,
+      "DSC": 0.800736309242515,
+      "F2": 0.8458098386123049,
+      "IoU": 0.6676899462675719,
+      "Accuracy": 0.9988988240559389
+    },
+    "Pus": {
+      "TP": 8706,
+      "TN": 1955408,
+      "FP": 1561,
+      "FN": 405,
+      "Precision": 0.8479594818267462,
+      "Recall": 0.9555482383826632,
+      "Specificity": 0.9992023379010604,
+      "DSC": 0.8985447414547499,
+      "F2": 0.9319004088952668,
+      "IoU": 0.8157796101872584,
+      "Accuracy": 0.9990000406900534
+    }
+  },
+  "model": "dasp_ag_swinunet",
+  "seed": 1004,
+  "scheme": "aspp_small_rates",
+  "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc",
+  "historical_source_sha256": "807dadfdd31eb8b3168988b563c4b8a1d8d63a0f9f0d9256539e0175f5347836",
+  "evaluation_context": {
+    "role": "performance_informed_development_split",
+    "test_performance_used_for_membership": true,
+    "independent_test": false,
+    "selection_audit": "selection_audit.json"
+  },
+  "metric_domain": "historical_gt_roi_256",
+  "baseline_settings": "W69 balanced CE/Tversky; recorded epithelial-loss and ASPP-rate ablation",
+  "variant_source_sha256": "7783610148d16450409463b459f3d3da46aeb323ae244243cc41076df77ee5ba",
+  "sampling_audit_sha256": "e8207ca20c3532b1f2e55f1c92fe3a6420d73b84470483d651094973d5e137e6",
+  "sampler_seed": 201004,
+  "loss": "weighted_CE_plus_classwise_Tversky",
+  "experiment_config": {
+    "tversky_fp_weights": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "tversky_fn_weights": [
+      0.7,
+      0.7,
+      0.7,
+      0.7,
+      0.7
+    ],
+    "aspp_rates": [
+      1,
+      2,
+      3
+    ],
+    "ce_weights": [
+      0.5,
+      4.0,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "label_smoothing": 0.05,
+    "loss_weights": {
+      "ce": 0.5,
+      "tversky": 0.5
+    },
+    "sampling": "npg_balanced"
+  }
+}

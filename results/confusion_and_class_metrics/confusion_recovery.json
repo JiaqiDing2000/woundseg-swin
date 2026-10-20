@@ -1,0 +1,789 @@
+{
+  "method": "Exact FP32 checkpoint reinference on CPU using frozen W70 model, aspp_small_rates configure, historical test Dataset and argmax.",
+  "original_image_limitation": "Saved count figures round values >= 1000 to one decimal k; no numeric cell was inferred from rounded labels or from marginals.",
+  "original_image_visual_check": "All 150 displayed labels were visually read and match the recomputed counts when formatted by the original plotting rule.",
+  "aggregation": "Arithmetic mean and sample SD (ddof=1) across six seeds of per-seed row percentages; mean_count/sd_count refer to raw per-seed cell counts.",
+  "classes": [
+    "Background",
+    "Epithelial",
+    "Granulation",
+    "Necrotic",
+    "Pus"
+  ],
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006
+  ],
+  "scheme": "aspp_small_rates",
+  "model": "dasp_ag_swinunet",
+  "aspp_rates": [
+    1,
+    2,
+    3
+  ],
+  "batch_size": 4,
+  "image_size": 256,
+  "precision": "FP32",
+  "device": "cpu",
+  "amp": false,
+  "tf32": false,
+  "checkpoint_selection": "Highest original validation mIoU",
+  "total_pixels_per_seed": 2293760,
+  "images_per_seed": 35,
+  "class_support": [
+    1943483,
+    13294,
+    272697,
+    52021,
+    12265
+  ],
+  "all_120_class_count_checks_exact": true,
+  "all_54_aggregate_metrics_exact": true,
+  "test_images_and_masks_sha256_verified": true,
+  "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc",
+  "dataset_manifest": "datasets/internal/dataset_manifest.json",
+  "dataset_manifest_sha256": "78d582f9b2276320ffcf1d1538eb1e88bb8e6cfe9ca42502096fd4d8e011b8db",
+  "evaluation_context": {
+    "role": "performance_informed_development_split",
+    "test_performance_used_for_membership": true,
+    "independent_test": false,
+    "selection_audit": "selection_audit.json"
+  },
+  "metric_domain": "historical_gt_roi_256",
+  "historical_source_sha256": "807dadfdd31eb8b3168988b563c4b8a1d8d63a0f9f0d9256539e0175f5347836",
+  "inference_script": "historical_source:manuscript/internal_results_w70_aspp123_20261018/data/recover_confusion.py",
+  "inference_script_sha256": "43cb171304fdb010896c56ca8edfbedaeb3aa4cefe23d2018d624fc1f4632909",
+  "software": {
+    "python": "3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]",
+    "torch": "2.6.0+cu124",
+    "numpy": "1.26.4",
+    "platform": "Linux-5.14.0-687.23.1.el9_8.x86_64-x86_64-with-glibc2.35"
+  },
+  "visual_read_labels": {
+    "1001": [
+      [
+        "1929.7k",
+        "4.5k",
+        "6.1k",
+        "3.0k",
+        "179"
+      ],
+      [
+        "918",
+        "12.3k",
+        "92",
+        "0",
+        "0"
+      ],
+      [
+        "10.3k",
+        "3.7k",
+        "255.9k",
+        "1.5k",
+        "1.3k"
+      ],
+      [
+        "641",
+        "7",
+        "938",
+        "50.4k",
+        "0"
+      ],
+      [
+        "11",
+        "15",
+        "5.9k",
+        "0",
+        "6.4k"
+      ]
+    ],
+    "1002": [
+      [
+        "1921.0k",
+        "13.0k",
+        "7.6k",
+        "1.7k",
+        "165"
+      ],
+      [
+        "363",
+        "12.8k",
+        "140",
+        "0",
+        "0"
+      ],
+      [
+        "11.6k",
+        "13.2k",
+        "245.0k",
+        "1.8k",
+        "1.2k"
+      ],
+      [
+        "823",
+        "30",
+        "1.3k",
+        "49.9k",
+        "0"
+      ],
+      [
+        "0",
+        "92",
+        "3.3k",
+        "0",
+        "8.9k"
+      ]
+    ],
+    "1003": [
+      [
+        "1923.3k",
+        "10.5k",
+        "7.2k",
+        "2.3k",
+        "185"
+      ],
+      [
+        "1.2k",
+        "12.0k",
+        "111",
+        "0",
+        "0"
+      ],
+      [
+        "10.4k",
+        "4.5k",
+        "254.2k",
+        "1.6k",
+        "2.1k"
+      ],
+      [
+        "615",
+        "21",
+        "970",
+        "50.4k",
+        "0"
+      ],
+      [
+        "0",
+        "97",
+        "5.4k",
+        "0",
+        "6.8k"
+      ]
+    ],
+    "1004": [
+      [
+        "1925.0k",
+        "5.5k",
+        "9.5k",
+        "3.3k",
+        "163"
+      ],
+      [
+        "5.5k",
+        "5.0k",
+        "2.8k",
+        "0",
+        "0"
+      ],
+      [
+        "9.5k",
+        "2.2k",
+        "255.5k",
+        "1.8k",
+        "3.7k"
+      ],
+      [
+        "208",
+        "31",
+        "1.6k",
+        "50.2k",
+        "0"
+      ],
+      [
+        "5",
+        "38",
+        "5.8k",
+        "0",
+        "6.4k"
+      ]
+    ],
+    "1005": [
+      [
+        "1926.9k",
+        "5.3k",
+        "8.5k",
+        "2.6k",
+        "174"
+      ],
+      [
+        "2.1k",
+        "10.5k",
+        "608",
+        "41",
+        "0"
+      ],
+      [
+        "14.2k",
+        "1.2k",
+        "250.7k",
+        "2.3k",
+        "4.3k"
+      ],
+      [
+        "246",
+        "16",
+        "604",
+        "51.2k",
+        "0"
+      ],
+      [
+        "0",
+        "62",
+        "4.5k",
+        "0",
+        "7.7k"
+      ]
+    ],
+    "1006": [
+      [
+        "1919.4k",
+        "12.9k",
+        "10.2k",
+        "840",
+        "191"
+      ],
+      [
+        "335",
+        "12.8k",
+        "122",
+        "0",
+        "0"
+      ],
+      [
+        "4.2k",
+        "16.6k",
+        "248.6k",
+        "1.6k",
+        "1.7k"
+      ],
+      [
+        "1.3k",
+        "1",
+        "1.4k",
+        "49.3k",
+        "0"
+      ],
+      [
+        "0",
+        "63",
+        "2.5k",
+        "0",
+        "9.7k"
+      ]
+    ]
+  },
+  "per_seed": [
+    {
+      "seed": 1001,
+      "confusion_counts": [
+        [
+          1929738,
+          4527,
+          6077,
+          2962,
+          179
+        ],
+        [
+          918,
+          12284,
+          92,
+          0,
+          0
+        ],
+        [
+          10281,
+          3673,
+          255907,
+          1495,
+          1341
+        ],
+        [
+          641,
+          7,
+          938,
+          50435,
+          0
+        ],
+        [
+          11,
+          15,
+          5856,
+          0,
+          6383
+        ]
+      ],
+      "matches_original_counts": true,
+      "count_differences": [],
+      "original_aggregates": {
+        "mIoU": 0.7619440896281013,
+        "mDSC": 0.8483594472920958,
+        "mPrecision": 0.8542399398486534,
+        "mRecall": 0.8690639275129035,
+        "mSpecificity": 0.9906986006399194,
+        "mF2": 0.8573956706683212,
+        "PixelAcc": 0.982991681780091,
+        "MeanAcc": 0.8690639275129035,
+        "FWIoU": 0.9687413806465844
+      },
+      "recomputed_aggregates": {
+        "mIoU": 0.7619440896281013,
+        "mDSC": 0.8483594472920958,
+        "mPrecision": 0.8542399398486534,
+        "mRecall": 0.8690639275129035,
+        "mSpecificity": 0.9906986006399194,
+        "mF2": 0.8573956706683212,
+        "PixelAcc": 0.982991681780091,
+        "MeanAcc": 0.8690639275129035,
+        "FWIoU": 0.9687413806465844
+      },
+      "source_result": "historical_source:Wound_70/runs/aspp_small_rates/results/dasp_ag_swinunet/seed_1001/test_results.json",
+      "source_result_sha256": "ce2e68c001385a35eb04f5faa0cf2181cfbcf979e2e4daf67804ec8c4e11ede2",
+      "checkpoint": "historical_source:Wound_70/runs/aspp_small_rates/checkpoints/dasp_ag_swinunet/seed_1001/dasp_ag_swinunet_best.pth",
+      "checkpoint_sha256": "97fb66ed3dd8536909e502310e53060b8bef43176c41d076ad3f50e6421b8ccb",
+      "original_counts_png": "historical_source:Wound_70/runs/aspp_small_rates/figures/dasp_ag_swinunet/seed_1001/confusion_matrix_counts.png",
+      "original_counts_png_sha256": "750804c12e305a4a355e6544ca995bc037927e5aeab78635f9d51e4a32f5bee1",
+      "device": "cpu",
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc",
+      "software": {
+        "python": "3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]",
+        "torch": "2.6.0+cu124",
+        "numpy": "1.26.4",
+        "platform": "Linux-5.14.0-687.23.1.el9_8.x86_64-x86_64-with-glibc2.35"
+      },
+      "original_historical_source_sha256": "807dadfdd31eb8b3168988b563c4b8a1d8d63a0f9f0d9256539e0175f5347836",
+      "script_sha256": "43cb171304fdb010896c56ca8edfbedaeb3aa4cefe23d2018d624fc1f4632909",
+      "elapsed_seconds": 7.747953799087554
+    },
+    {
+      "seed": 1002,
+      "confusion_counts": [
+        [
+          1920962,
+          13028,
+          7603,
+          1725,
+          165
+        ],
+        [
+          363,
+          12791,
+          140,
+          0,
+          0
+        ],
+        [
+          11600,
+          13202,
+          244962,
+          1755,
+          1178
+        ],
+        [
+          823,
+          30,
+          1251,
+          49917,
+          0
+        ],
+        [
+          0,
+          92,
+          3310,
+          0,
+          8863
+        ]
+      ],
+      "matches_original_counts": true,
+      "count_differences": [],
+      "original_aggregates": {
+        "mIoU": 0.7429584348909355,
+        "mDSC": 0.827814738611466,
+        "mPrecision": 0.8151153404135861,
+        "mRecall": 0.9062098572256214,
+        "mSpecificity": 0.9887426053645971,
+        "mF2": 0.8585952874936534,
+        "PixelAcc": 0.9754704066684842,
+        "MeanAcc": 0.9062098572256214,
+        "FWIoU": 0.9599338134865464
+      },
+      "recomputed_aggregates": {
+        "mIoU": 0.7429584348909355,
+        "mDSC": 0.827814738611466,
+        "mPrecision": 0.8151153404135861,
+        "mRecall": 0.9062098572256214,
+        "mSpecificity": 0.9887426053645971,
+        "mF2": 0.8585952874936534,
+        "PixelAcc": 0.9754704066684842,
+        "MeanAcc": 0.9062098572256214,
+        "FWIoU": 0.9599338134865464
+      },
+      "source_result": "historical_source:Wound_70/runs/aspp_small_rates/results/dasp_ag_swinunet/seed_1002/test_results.json",
+      "source_result_sha256": "2e3e050adc7da25f0a73335d02630c93a3fc7981b6c7ea0fa67d480f3b79111c",
+      "checkpoint": "historical_source:Wound_70/runs/aspp_small_rates/checkpoints/dasp_ag_swinunet/seed_1002/dasp_ag_swinunet_best.pth",
+      "checkpoint_sha256": "054ae912735bbbe903e751c15f569e2b9c107d6c594ed5bfc470d67be5212ffd",
+      "original_counts_png": "historical_source:Wound_70/runs/aspp_small_rates/figures/dasp_ag_swinunet/seed_1002/confusion_matrix_counts.png",
+      "original_counts_png_sha256": "b477cc3b8957e282b53067af2589b755ebf82a2f71b9978a78283b04727c8e99",
+      "device": "cpu",
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc",
+      "software": {
+        "python": "3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]",
+        "torch": "2.6.0+cu124",
+        "numpy": "1.26.4",
+        "platform": "Linux-5.14.0-687.23.1.el9_8.x86_64-x86_64-with-glibc2.35"
+      },
+      "original_historical_source_sha256": "807dadfdd31eb8b3168988b563c4b8a1d8d63a0f9f0d9256539e0175f5347836",
+      "script_sha256": "43cb171304fdb010896c56ca8edfbedaeb3aa4cefe23d2018d624fc1f4632909",
+      "elapsed_seconds": 7.483915766235441
+    },
+    {
+      "seed": 1003,
+      "confusion_counts": [
+        [
+          1923306,
+          10503,
+          7227,
+          2262,
+          185
+        ],
+        [
+          1174,
+          12009,
+          111,
+          0,
+          0
+        ],
+        [
+          10366,
+          4506,
+          254197,
+          1576,
+          2052
+        ],
+        [
+          615,
+          21,
+          970,
+          50415,
+          0
+        ],
+        [
+          0,
+          97,
+          5412,
+          0,
+          6756
+        ]
+      ],
+      "matches_original_counts": true,
+      "count_differences": [],
+      "original_aggregates": {
+        "mIoU": 0.7323841476691831,
+        "mDSC": 0.8221046221413874,
+        "mPrecision": 0.8131133875834159,
+        "mRecall": 0.8690161352439342,
+        "mSpecificity": 0.9898369061313051,
+        "mF2": 0.8432570816570433,
+        "PixelAcc": 0.9794760567800912,
+        "MeanAcc": 0.8690161352439342,
+        "FWIoU": 0.9642048479992406
+      },
+      "recomputed_aggregates": {
+        "mIoU": 0.7323841476691831,
+        "mDSC": 0.8221046221413874,
+        "mPrecision": 0.8131133875834159,
+        "mRecall": 0.8690161352439342,
+        "mSpecificity": 0.9898369061313051,
+        "mF2": 0.8432570816570433,
+        "PixelAcc": 0.9794760567800912,
+        "MeanAcc": 0.8690161352439342,
+        "FWIoU": 0.9642048479992406
+      },
+      "source_result": "historical_source:Wound_70/runs/aspp_small_rates/results/dasp_ag_swinunet/seed_1003/test_results.json",
+      "source_result_sha256": "e5a0990f8d0f2da87a09143e237c31b1977c7dd103a29de720fc4a7ab356d2d4",
+      "checkpoint": "historical_source:Wound_70/runs/aspp_small_rates/checkpoints/dasp_ag_swinunet/seed_1003/dasp_ag_swinunet_best.pth",
+      "checkpoint_sha256": "59a01d129427d5357d1c8901b2b8f8410cca04bb5335e5c3a749d488a70a6d25",
+      "original_counts_png": "historical_source:Wound_70/runs/aspp_small_rates/figures/dasp_ag_swinunet/seed_1003/confusion_matrix_counts.png",
+      "original_counts_png_sha256": "8ad4767bf26f39b7392112980fdd6f3f5527943f64363a1e6eb95eae227be6e6",
+      "device": "cpu",
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc",
+      "software": {
+        "python": "3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]",
+        "torch": "2.6.0+cu124",
+        "numpy": "1.26.4",
+        "platform": "Linux-5.14.0-687.23.1.el9_8.x86_64-x86_64-with-glibc2.35"
+      },
+      "original_historical_source_sha256": "807dadfdd31eb8b3168988b563c4b8a1d8d63a0f9f0d9256539e0175f5347836",
+      "script_sha256": "43cb171304fdb010896c56ca8edfbedaeb3aa4cefe23d2018d624fc1f4632909",
+      "elapsed_seconds": 7.365239372942597
+    },
+    {
+      "seed": 1004,
+      "confusion_counts": [
+        [
+          1924986,
+          5533,
+          9479,
+          3322,
+          163
+        ],
+        [
+          5473,
+          5026,
+          2795,
+          0,
+          0
+        ],
+        [
+          9468,
+          2180,
+          255516,
+          1801,
+          3732
+        ],
+        [
+          208,
+          31,
+          1589,
+          50193,
+          0
+        ],
+        [
+          5,
+          38,
+          5773,
+          0,
+          6449
+        ]
+      ],
+      "matches_original_counts": true,
+      "count_differences": [],
+      "original_aggregates": {
+        "mIoU": 0.6745558393788678,
+        "mDSC": 0.7629918085981316,
+        "mPrecision": 0.7688151771955571,
+        "mRecall": 0.7592418663522114,
+        "mSpecificity": 0.987923292710373,
+        "mF2": 0.7605168526001282,
+        "PixelAcc": 0.9775085449218324,
+        "MeanAcc": 0.7592418663522114,
+        "FWIoU": 0.960084471248388
+      },
+      "recomputed_aggregates": {
+        "mIoU": 0.6745558393788678,
+        "mDSC": 0.7629918085981316,
+        "mPrecision": 0.7688151771955571,
+        "mRecall": 0.7592418663522114,
+        "mSpecificity": 0.987923292710373,
+        "mF2": 0.7605168526001282,
+        "PixelAcc": 0.9775085449218324,
+        "MeanAcc": 0.7592418663522114,
+        "FWIoU": 0.960084471248388
+      },
+      "source_result": "historical_source:Wound_70/runs/aspp_small_rates/results/dasp_ag_swinunet/seed_1004/test_results.json",
+      "source_result_sha256": "f9f24e0f5b9099c854f192f61aceb67ffc033e1f1e4ae9bcdf9a971ffe7daf27",
+      "checkpoint": "historical_source:Wound_70/runs/aspp_small_rates/checkpoints/dasp_ag_swinunet/seed_1004/dasp_ag_swinunet_best.pth",
+      "checkpoint_sha256": "6c5f1f4cabfae672f666cc28b87139aeb607f62bebf3d5a2ee5b7cb88b5504b1",
+      "original_counts_png": "historical_source:Wound_70/runs/aspp_small_rates/figures/dasp_ag_swinunet/seed_1004/confusion_matrix_counts.png",
+      "original_counts_png_sha256": "72adfeca18415fc638983f66ad62aae5342a3e14745d72b6919ff58dde570b0a",
+      "device": "cpu",
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc",
+      "software": {
+        "python": "3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]",
+        "torch": "2.6.0+cu124",
+        "numpy": "1.26.4",
+        "platform": "Linux-5.14.0-687.23.1.el9_8.x86_64-x86_64-with-glibc2.35"
+      },
+      "original_historical_source_sha256": "807dadfdd31eb8b3168988b563c4b8a1d8d63a0f9f0d9256539e0175f5347836",
+      "script_sha256": "43cb171304fdb010896c56ca8edfbedaeb3aa4cefe23d2018d624fc1f4632909",
+      "elapsed_seconds": 7.349786543287337
+    },
+    {
+      "seed": 1005,
+      "confusion_counts": [
+        [
+          1926944,
+          5317,
+          8471,
+          2577,
+          174
+        ],
+        [
+          2111,
+          10534,
+          608,
+          41,
+          0
+        ],
+        [
+          14166,
+          1167,
+          250746,
+          2279,
+          4339
+        ],
+        [
+          246,
+          16,
+          604,
+          51155,
+          0
+        ],
+        [
+          0,
+          62,
+          4520,
+          0,
+          7683
+        ]
+      ],
+      "matches_original_counts": true,
+      "count_differences": [],
+      "original_aggregates": {
+        "mIoU": 0.7488611115448158,
+        "mDSC": 0.8384724087578492,
+        "mPrecision": 0.8193309007997029,
+        "mRecall": 0.8626302276718768,
+        "mSpecificity": 0.9877522470864918,
+        "mF2": 0.8522469835731377,
+        "PixelAcc": 0.9796412876673679,
+        "MeanAcc": 0.8626302276718768,
+        "FWIoU": 0.9628101799037294
+      },
+      "recomputed_aggregates": {
+        "mIoU": 0.7488611115448158,
+        "mDSC": 0.8384724087578492,
+        "mPrecision": 0.8193309007997029,
+        "mRecall": 0.8626302276718768,
+        "mSpecificity": 0.9877522470864918,
+        "mF2": 0.8522469835731377,
+        "PixelAcc": 0.9796412876673679,
+        "MeanAcc": 0.8626302276718768,
+        "FWIoU": 0.9628101799037294
+      },
+      "source_result": "historical_source:Wound_70/runs/aspp_small_rates/results/dasp_ag_swinunet/seed_1005/test_results.json",
+      "source_result_sha256": "ae6180077724c66d0b4434f395ba915565700b17341e7af27cbd4cc03a1dfbb5",
+      "checkpoint": "historical_source:Wound_70/runs/aspp_small_rates/checkpoints/dasp_ag_swinunet/seed_1005/dasp_ag_swinunet_best.pth",
+      "checkpoint_sha256": "70a7f1dd7abda040ebff42964d34f911315edb4193186202a4ef158c41ab23f3",
+      "original_counts_png": "historical_source:Wound_70/runs/aspp_small_rates/figures/dasp_ag_swinunet/seed_1005/confusion_matrix_counts.png",
+      "original_counts_png_sha256": "b598c724740bb00054a660eaf61e74a6388018095bf5068a793dad81e205e4a9",
+      "device": "cpu",
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc",
+      "software": {
+        "python": "3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]",
+        "torch": "2.6.0+cu124",
+        "numpy": "1.26.4",
+        "platform": "Linux-5.14.0-687.23.1.el9_8.x86_64-x86_64-with-glibc2.35"
+      },
+      "original_historical_source_sha256": "807dadfdd31eb8b3168988b563c4b8a1d8d63a0f9f0d9256539e0175f5347836",
+      "script_sha256": "43cb171304fdb010896c56ca8edfbedaeb3aa4cefe23d2018d624fc1f4632909",
+      "elapsed_seconds": 7.451284865383059
+    },
+    {
+      "seed": 1006,
+      "confusion_counts": [
+        [
+          1919368,
+          12926,
+          10158,
+          840,
+          191
+        ],
+        [
+          335,
+          12837,
+          122,
+          0,
+          0
+        ],
+        [
+          4231,
+          16616,
+          248561,
+          1619,
+          1670
+        ],
+        [
+          1325,
+          1,
+          1394,
+          49301,
+          0
+        ],
+        [
+          0,
+          63,
+          2458,
+          0,
+          9744
+        ]
+      ],
+      "matches_original_counts": true,
+      "count_differences": [],
+      "original_aggregates": {
+        "mIoU": 0.7490300257339726,
+        "mDSC": 0.8295827678606351,
+        "mPrecision": 0.8075453150250274,
+        "mRecall": 0.9213752310089983,
+        "mSpecificity": 0.9922588956035489,
+        "mF2": 0.8661396481786634,
+        "PixelAcc": 0.9764801025390198,
+        "MeanAcc": 0.9213752310089983,
+        "FWIoU": 0.9632202860576173
+      },
+      "recomputed_aggregates": {
+        "mIoU": 0.7490300257339726,
+        "mDSC": 0.8295827678606351,
+        "mPrecision": 0.8075453150250274,
+        "mRecall": 0.9213752310089983,
+        "mSpecificity": 0.9922588956035489,
+        "mF2": 0.8661396481786634,
+        "PixelAcc": 0.9764801025390198,
+        "MeanAcc": 0.9213752310089983,
+        "FWIoU": 0.9632202860576173
+      },
+      "source_result": "historical_source:Wound_70/runs/aspp_small_rates/results/dasp_ag_swinunet/seed_1006/test_results.json",
+      "source_result_sha256": "95a9b82b9e92bfbe28edd671359f7950968e598e66e4ada9bb50f671b6c0ac20",
+      "checkpoint": "historical_source:Wound_70/runs/aspp_small_rates/checkpoints/dasp_ag_swinunet/seed_1006/dasp_ag_swinunet_best.pth",
+      "checkpoint_sha256": "221e01538f4f9e59a0a95f734b2d2fef51295b44e053f8564b5d5bb8ca399446",
+      "original_counts_png": "historical_source:Wound_70/runs/aspp_small_rates/figures/dasp_ag_swinunet/seed_1006/confusion_matrix_counts.png",
+      "original_counts_png_sha256": "d8cb7237b99adf638b2aa3571ffb8c8bd0367ff1e4716a415440c9e9bbd1e21e",
+      "device": "cpu",
+      "dataset_fingerprint": "4e6bed82c6a90b764f1b856cb188710fcf0aae69c462c93f9715ffa36f1ecddc",
+      "software": {
+        "python": "3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]",
+        "torch": "2.6.0+cu124",
+        "numpy": "1.26.4",
+        "platform": "Linux-5.14.0-687.23.1.el9_8.x86_64-x86_64-with-glibc2.35"
+      },
+      "original_historical_source_sha256": "807dadfdd31eb8b3168988b563c4b8a1d8d63a0f9f0d9256539e0175f5347836",
+      "script_sha256": "43cb171304fdb010896c56ca8edfbedaeb3aa4cefe23d2018d624fc1f4632909",
+      "elapsed_seconds": 8.284041005186737
+    }
+  ],
+  "exports": [
+    {
+      "path": "historical_source:manuscript/internal_results_w70_aspp123_20261018/data/confusion_counts_by_seed.csv",
+      "sha256": "0d55c38161db286edd5e6a54ca063894a84e32d1611d879c34025674dd93c20d"
+    },
+    {
+      "path": "historical_source:manuscript/internal_results_w70_aspp123_20261018/data/mean_confusion_pct.csv",
+      "sha256": "df26d560f042979107632b37294788620c4803968b0574e280908f20039545a8"
+    }
+  ],
+  "path_base": "repository root"
+}
