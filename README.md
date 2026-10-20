@@ -1,6 +1,6 @@
 # WoundSeg-Swin
 
-Training code, original model checkpoints, internal image annotations, numerical results and editable figures for the final B model: balanced whole-image sampling, cross-entropy plus Tversky loss, and ASPP dilation rates 1/2/3.
+Training code, original model checkpoints, internal image annotations, numerical results and editable figures for the final model: balanced whole-image sampling, cross-entropy plus Tversky loss, and ASPP dilation rates 1/2/3.
 
 ## Download
 
