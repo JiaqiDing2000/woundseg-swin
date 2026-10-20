@@ -1,0 +1,942 @@
+{
+  "physical_size_mm": [
+    183,
+    116
+  ],
+  "font_family": "DejaVu Sans",
+  "minimum_font_pt": 7,
+  "nodes": {
+    "input": [
+      3,
+      7,
+      19,
+      15
+    ],
+    "e1": [
+      28,
+      7,
+      27,
+      15
+    ],
+    "e2": [
+      68,
+      7,
+      27,
+      15
+    ],
+    "e3": [
+      108,
+      7,
+      27,
+      15
+    ],
+    "e4": [
+      148,
+      7,
+      30,
+      15
+    ],
+    "ag1": [
+      33.0,
+      32,
+      17,
+      10
+    ],
+    "cat1": [
+      38.5,
+      48,
+      6,
+      6
+    ],
+    "g1": [
+      58.5,
+      66,
+      6,
+      6
+    ],
+    "d1": [
+      28.0,
+      61,
+      27,
+      16
+    ],
+    "ag2": [
+      73.0,
+      32,
+      17,
+      10
+    ],
+    "cat2": [
+      78.5,
+      48,
+      6,
+      6
+    ],
+    "g2": [
+      98.5,
+      66,
+      6,
+      6
+    ],
+    "d2": [
+      68.0,
+      61,
+      27,
+      16
+    ],
+    "ag3": [
+      113.0,
+      32,
+      17,
+      10
+    ],
+    "cat3": [
+      118.5,
+      48,
+      6,
+      6
+    ],
+    "g3": [
+      138.5,
+      66,
+      6,
+      6
+    ],
+    "d3": [
+      108.0,
+      61,
+      27,
+      16
+    ],
+    "aspp": [
+      148,
+      30,
+      30,
+      40
+    ],
+    "g0": [
+      38.7,
+      80.2,
+      5.6,
+      5.6
+    ],
+    "d0": [
+      26,
+      89,
+      31,
+      15
+    ],
+    "head": [
+      74,
+      89,
+      30,
+      15
+    ],
+    "resize": [
+      119,
+      93.5,
+      6,
+      6
+    ],
+    "output": [
+      143,
+      89,
+      35,
+      15
+    ]
+  },
+  "edges": [
+    {
+      "from": "input",
+      "to": "e1",
+      "points": [
+        [
+          22,
+          14.5
+        ],
+        [
+          28,
+          14.5
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "e1",
+      "to": "e2",
+      "points": [
+        [
+          55,
+          14.5
+        ],
+        [
+          68,
+          14.5
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "e2",
+      "to": "e3",
+      "points": [
+        [
+          95,
+          14.5
+        ],
+        [
+          108,
+          14.5
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "e3",
+      "to": "e4",
+      "points": [
+        [
+          135,
+          14.5
+        ],
+        [
+          148,
+          14.5
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "e4",
+      "to": "aspp",
+      "points": [
+        [
+          163,
+          22
+        ],
+        [
+          163,
+          30
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "aspp",
+      "to": "g3",
+      "points": [
+        [
+          163,
+          70
+        ],
+        [
+          163,
+          79
+        ],
+        [
+          141.5,
+          79
+        ],
+        [
+          141.5,
+          72
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "e1",
+      "to": "ag1",
+      "points": [
+        [
+          41.5,
+          22
+        ],
+        [
+          41.5,
+          32
+        ]
+      ],
+      "kind": "residual"
+    },
+    {
+      "from": "g1",
+      "to": "cat1",
+      "points": [
+        [
+          61.5,
+          66
+        ],
+        [
+          61.5,
+          51
+        ],
+        [
+          44.5,
+          51
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "g1",
+      "to": "ag1",
+      "points": [
+        [
+          61.5,
+          51
+        ],
+        [
+          61.5,
+          37
+        ],
+        [
+          50.0,
+          37
+        ]
+      ],
+      "kind": "conditioning"
+    },
+    {
+      "from": "ag1",
+      "to": "cat1",
+      "points": [
+        [
+          41.5,
+          42
+        ],
+        [
+          41.5,
+          48
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "cat1",
+      "to": "d1",
+      "points": [
+        [
+          41.5,
+          54
+        ],
+        [
+          41.5,
+          61
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "e2",
+      "to": "ag2",
+      "points": [
+        [
+          81.5,
+          22
+        ],
+        [
+          81.5,
+          32
+        ]
+      ],
+      "kind": "residual"
+    },
+    {
+      "from": "g2",
+      "to": "cat2",
+      "points": [
+        [
+          101.5,
+          66
+        ],
+        [
+          101.5,
+          51
+        ],
+        [
+          84.5,
+          51
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "g2",
+      "to": "ag2",
+      "points": [
+        [
+          101.5,
+          51
+        ],
+        [
+          101.5,
+          37
+        ],
+        [
+          90.0,
+          37
+        ]
+      ],
+      "kind": "conditioning"
+    },
+    {
+      "from": "ag2",
+      "to": "cat2",
+      "points": [
+        [
+          81.5,
+          42
+        ],
+        [
+          81.5,
+          48
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "cat2",
+      "to": "d2",
+      "points": [
+        [
+          81.5,
+          54
+        ],
+        [
+          81.5,
+          61
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "d2",
+      "to": "g1",
+      "points": [
+        [
+          68.0,
+          69
+        ],
+        [
+          64.5,
+          69
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "e3",
+      "to": "ag3",
+      "points": [
+        [
+          121.5,
+          22
+        ],
+        [
+          121.5,
+          32
+        ]
+      ],
+      "kind": "residual"
+    },
+    {
+      "from": "g3",
+      "to": "cat3",
+      "points": [
+        [
+          141.5,
+          66
+        ],
+        [
+          141.5,
+          51
+        ],
+        [
+          124.5,
+          51
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "g3",
+      "to": "ag3",
+      "points": [
+        [
+          141.5,
+          51
+        ],
+        [
+          141.5,
+          37
+        ],
+        [
+          130.0,
+          37
+        ]
+      ],
+      "kind": "conditioning"
+    },
+    {
+      "from": "ag3",
+      "to": "cat3",
+      "points": [
+        [
+          121.5,
+          42
+        ],
+        [
+          121.5,
+          48
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "cat3",
+      "to": "d3",
+      "points": [
+        [
+          121.5,
+          54
+        ],
+        [
+          121.5,
+          61
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "d3",
+      "to": "g2",
+      "points": [
+        [
+          108.0,
+          69
+        ],
+        [
+          104.5,
+          69
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "d1",
+      "to": "g0",
+      "points": [
+        [
+          41.5,
+          77
+        ],
+        [
+          41.5,
+          80.2
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "g0",
+      "to": "d0",
+      "points": [
+        [
+          41.5,
+          85.8
+        ],
+        [
+          41.5,
+          89
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "d0",
+      "to": "head",
+      "points": [
+        [
+          57,
+          96.5
+        ],
+        [
+          74,
+          96.5
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "head",
+      "to": "resize",
+      "points": [
+        [
+          104,
+          96.5
+        ],
+        [
+          119,
+          96.5
+        ]
+      ],
+      "kind": "main"
+    },
+    {
+      "from": "resize",
+      "to": "output",
+      "points": [
+        [
+          125,
+          96.5
+        ],
+        [
+          143,
+          96.5
+        ]
+      ],
+      "kind": "main"
+    }
+  ],
+  "text": [
+    {
+      "text": "RGB input",
+      "x": 12.5,
+      "y": 11.7,
+      "font_pt": 7.5,
+      "width_mm": 14.676106770833334,
+      "anchor": "middle"
+    },
+    {
+      "text": "256 × 256",
+      "x": 12.5,
+      "y": 17.4,
+      "font_pt": 7.2,
+      "width_mm": 13.093154296875,
+      "anchor": "middle"
+    },
+    {
+      "text": "Swin V2 · 1",
+      "x": 41.5,
+      "y": 11.7,
+      "font_pt": 8,
+      "width_mm": 17.351264756944442,
+      "anchor": "middle"
+    },
+    {
+      "text": "96 × 64 × 64",
+      "x": 41.5,
+      "y": 17.4,
+      "font_pt": 7.2,
+      "width_mm": 16.879837890624998,
+      "anchor": "middle"
+    },
+    {
+      "text": "Swin V2 · 2",
+      "x": 81.5,
+      "y": 11.7,
+      "font_pt": 8,
+      "width_mm": 17.300111979166665,
+      "anchor": "middle"
+    },
+    {
+      "text": "192 × 32 × 32",
+      "x": 81.5,
+      "y": 17.4,
+      "font_pt": 7.2,
+      "width_mm": 18.26488203125,
+      "anchor": "middle"
+    },
+    {
+      "text": "Swin V2 · 3",
+      "x": 121.5,
+      "y": 11.7,
+      "font_pt": 8,
+      "width_mm": 17.32083767361111,
+      "anchor": "middle"
+    },
+    {
+      "text": "384 × 16 × 16",
+      "x": 121.5,
+      "y": 17.4,
+      "font_pt": 7.2,
+      "width_mm": 18.44466640625,
+      "anchor": "middle"
+    },
+    {
+      "text": "Swin V2 · 4",
+      "x": 163.0,
+      "y": 11.7,
+      "font_pt": 8,
+      "width_mm": 17.415646701388887,
+      "anchor": "middle"
+    },
+    {
+      "text": "768 × 8 × 8",
+      "x": 163.0,
+      "y": 17.4,
+      "font_pt": 7.2,
+      "width_mm": 15.184040624999998,
+      "anchor": "middle"
+    },
+    {
+      "text": "AG1",
+      "x": 41.5,
+      "y": 37,
+      "font_pt": 8,
+      "width_mm": 6.256624131944443,
+      "anchor": "middle"
+    },
+    {
+      "text": "C",
+      "x": 41.5,
+      "y": 51,
+      "font_pt": 7.5,
+      "width_mm": 1.640830078125,
+      "anchor": "middle"
+    },
+    {
+      "text": "↑2",
+      "x": 61.5,
+      "y": 69,
+      "font_pt": 7.5,
+      "width_mm": 3.3161800130208334,
+      "anchor": "middle"
+    },
+    {
+      "text": "Decoder 1",
+      "x": 41.5,
+      "y": 66.3,
+      "font_pt": 8,
+      "width_mm": 15.687586805555554,
+      "anchor": "middle"
+    },
+    {
+      "text": "96 × 64 × 64",
+      "x": 41.5,
+      "y": 72.3,
+      "font_pt": 7.2,
+      "width_mm": 16.879837890624998,
+      "anchor": "middle"
+    },
+    {
+      "text": "AG2",
+      "x": 81.5,
+      "y": 37,
+      "font_pt": 8,
+      "width_mm": 6.205471354166665,
+      "anchor": "middle"
+    },
+    {
+      "text": "C",
+      "x": 81.5,
+      "y": 51,
+      "font_pt": 7.5,
+      "width_mm": 1.640830078125,
+      "anchor": "middle"
+    },
+    {
+      "text": "↑2",
+      "x": 101.5,
+      "y": 69,
+      "font_pt": 7.5,
+      "width_mm": 3.3161800130208334,
+      "anchor": "middle"
+    },
+    {
+      "text": "Decoder 2",
+      "x": 81.5,
+      "y": 66.3,
+      "font_pt": 8,
+      "width_mm": 15.636434027777776,
+      "anchor": "middle"
+    },
+    {
+      "text": "192 × 32 × 32",
+      "x": 81.5,
+      "y": 72.3,
+      "font_pt": 7.2,
+      "width_mm": 18.26488203125,
+      "anchor": "middle"
+    },
+    {
+      "text": "AG3",
+      "x": 121.5,
+      "y": 37,
+      "font_pt": 8,
+      "width_mm": 6.22619704861111,
+      "anchor": "middle"
+    },
+    {
+      "text": "C",
+      "x": 121.5,
+      "y": 51,
+      "font_pt": 7.5,
+      "width_mm": 1.640830078125,
+      "anchor": "middle"
+    },
+    {
+      "text": "↑2",
+      "x": 141.5,
+      "y": 69,
+      "font_pt": 7.5,
+      "width_mm": 3.3161800130208334,
+      "anchor": "middle"
+    },
+    {
+      "text": "Decoder 3",
+      "x": 121.5,
+      "y": 66.3,
+      "font_pt": 8,
+      "width_mm": 15.65715972222222,
+      "anchor": "middle"
+    },
+    {
+      "text": "384 × 16 × 16",
+      "x": 121.5,
+      "y": 72.3,
+      "font_pt": 7.2,
+      "width_mm": 18.44466640625,
+      "anchor": "middle"
+    },
+    {
+      "text": "ASPP",
+      "x": 163,
+      "y": 34.2,
+      "font_pt": 8.3,
+      "width_mm": 8.53259408094618,
+      "anchor": "middle"
+    },
+    {
+      "text": "5 parallel branches",
+      "x": 163,
+      "y": 39,
+      "font_pt": 7,
+      "width_mm": 23.406619520399303,
+      "anchor": "middle"
+    },
+    {
+      "text": "1 × 1",
+      "x": 163,
+      "y": 43.5,
+      "font_pt": 7.2,
+      "width_mm": 6.461571484375,
+      "anchor": "middle"
+    },
+    {
+      "text": "3 × 3: r = 1/2/3",
+      "x": 163,
+      "y": 48,
+      "font_pt": 7,
+      "width_mm": 19.04380571831597,
+      "anchor": "middle"
+    },
+    {
+      "text": "Global pooling",
+      "x": 163,
+      "y": 52.5,
+      "font_pt": 7.2,
+      "width_mm": 17.890430468749997,
+      "anchor": "middle"
+    },
+    {
+      "text": "Concat → 1 × 1",
+      "x": 163,
+      "y": 57,
+      "font_pt": 7.2,
+      "width_mm": 19.227403125,
+      "anchor": "middle"
+    },
+    {
+      "text": "768 × 8 × 8",
+      "x": 163,
+      "y": 65.5,
+      "font_pt": 7.2,
+      "width_mm": 15.184040624999998,
+      "anchor": "middle"
+    },
+    {
+      "text": "↑2",
+      "x": 41.5,
+      "y": 83,
+      "font_pt": 7.5,
+      "width_mm": 3.3161800130208334,
+      "anchor": "middle"
+    },
+    {
+      "text": "Decoder 0",
+      "x": 41.5,
+      "y": 93.8,
+      "font_pt": 8,
+      "width_mm": 15.746677083333331,
+      "anchor": "middle"
+    },
+    {
+      "text": "64 × 128 × 128",
+      "x": 41.5,
+      "y": 99.5,
+      "font_pt": 7.2,
+      "width_mm": 20.063073046874997,
+      "anchor": "middle"
+    },
+    {
+      "text": "1 × 1 head",
+      "x": 89,
+      "y": 93.8,
+      "font_pt": 8,
+      "width_mm": 16.532379340277778,
+      "anchor": "middle"
+    },
+    {
+      "text": "5 × 128 × 128",
+      "x": 89,
+      "y": 99.5,
+      "font_pt": 7.2,
+      "width_mm": 18.428394531249996,
+      "anchor": "middle"
+    },
+    {
+      "text": "↑2",
+      "x": 122,
+      "y": 96.5,
+      "font_pt": 7.5,
+      "width_mm": 3.3161800130208334,
+      "anchor": "middle"
+    },
+    {
+      "text": "Output logits",
+      "x": 160.5,
+      "y": 93.8,
+      "font_pt": 8,
+      "width_mm": 20.766815104166664,
+      "anchor": "middle"
+    },
+    {
+      "text": "5 × 256 × 256",
+      "x": 160.5,
+      "y": 99.5,
+      "font_pt": 7.2,
+      "width_mm": 18.442285156249998,
+      "anchor": "middle"
+    },
+    {
+      "text": "AG: attention gate   C: concatenate   ↑2: bilinear upsample   Tensor labels: channels × height × width",
+      "x": 6,
+      "y": 108,
+      "font_pt": 7,
+      "width_mm": 126.38197054036456,
+      "anchor": "start"
+    },
+    {
+      "text": "Internal model shown. Separate human model: ASPP r = 6/12/18; four output classes.",
+      "x": 6,
+      "y": 112.5,
+      "font_pt": 7,
+      "width_mm": 105.66675607638888,
+      "anchor": "start"
+    }
+  ],
+  "topology_preserved": true,
+  "ASPP_detail_view": "Five verified parallel branches are summarized inside the ASPP macro; exact internal graph is retained in architecture.reviewed.yaml."
+}
