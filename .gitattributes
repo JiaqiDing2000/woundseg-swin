@@ -1,0 +1,2 @@
+# Keep released file bytes unchanged so SHA-256 checks work across platforms.
+* -text
