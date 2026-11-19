@@ -7048,5 +7048,12 @@
     "Granulation",
     "Dark-discolored tissue",
     "Pus"
-  ]
+  ],
+  "download": {
+    "archive_url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.0.0/internal_dataset.zip",
+    "size_bytes": 51364748,
+    "sha256": "a057b71f3e753b3871316f02ba4fd8c0f80b4154db6ad4749bc0bff9cfa86d18",
+    "archive_dataset_root": "datasets/internal",
+    "dataset_argument": "Pass the extracted datasets/internal directory to --dataset when training or evaluating."
+  }
 }
