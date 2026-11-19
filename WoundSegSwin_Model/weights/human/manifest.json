@@ -1,0 +1,99 @@
+{
+  "dataset": "human",
+  "model": "ASPP-AG-SwinUNet",
+  "format": "PyTorch model state plus epoch, validation score and architecture metadata; optimizer state omitted",
+  "selection": "Highest validation mIoU separately for every seed",
+  "representative_seed": 1001,
+  "representative_seed_selection": "Highest validation mIoU among the six released checkpoints",
+  "aspp_rates": [
+    6,
+    12,
+    18
+  ],
+  "class_names": [
+    "Background",
+    "Fibrin",
+    "Granulation",
+    "Callus"
+  ],
+  "weights": [
+    {
+      "seed": 1001,
+      "path": "weights/human/seed_1001.pth",
+      "bytes": 305772346,
+      "sha256": "8cc716d5569b773c548477fc6c8a0d3b1eb043b4aee1df093e175d3281ad7594",
+      "source_sha256": "54aa3dd322689a798c4cbbf6427e80175a46eb6644bbb45db6711994b1d126c5",
+      "epoch": 32,
+      "best_validation_mIoU": 0.6063486509187497,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "human_seed_1001.pth"
+    },
+    {
+      "seed": 1002,
+      "path": "weights/human/seed_1002.pth",
+      "bytes": 305772346,
+      "sha256": "a24ca383cb0c629088a0ed864c92b0f459ac800aac31edeef7be4fe333034f41",
+      "source_sha256": "2db94701b8d5f4e69dc0f18764d96af2735a93437ce421cf7b4b0516c438aafe",
+      "epoch": 30,
+      "best_validation_mIoU": 0.5764018197912473,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "human_seed_1002.pth"
+    },
+    {
+      "seed": 1003,
+      "path": "weights/human/seed_1003.pth",
+      "bytes": 305772346,
+      "sha256": "b35b180ab00c42db9a3d27fdcc82e364cc6f1739c692235d3f4df16ed0831b9b",
+      "source_sha256": "1e1eb5620d0e02744b274f9fa5fe6e7324c297eb2fb4b8ed69d857086aa66314",
+      "epoch": 36,
+      "best_validation_mIoU": 0.5846832345778372,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "human_seed_1003.pth"
+    },
+    {
+      "seed": 1004,
+      "path": "weights/human/seed_1004.pth",
+      "bytes": 305772346,
+      "sha256": "b1d603bddf3fb004bc7390517062af73233c3868acc16f8a781a1681f7929692",
+      "source_sha256": "47f5df16ca7bfd3b72ec71ea4aac6b0bb501349e56083691fb5fc331f9030c0e",
+      "epoch": 54,
+      "best_validation_mIoU": 0.5795802497321381,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "human_seed_1004.pth"
+    },
+    {
+      "seed": 1005,
+      "path": "weights/human/seed_1005.pth",
+      "bytes": 305772346,
+      "sha256": "e661d2aa2ebd08759462de3501fe9454a62dde7ef87d3af2d7967bd95d070901",
+      "source_sha256": "428ac03edd6674fc4352c86688da6e3cb2ebd389a0d747c7a9e4193e76f850db",
+      "epoch": 29,
+      "best_validation_mIoU": 0.6048172020440041,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "human_seed_1005.pth"
+    },
+    {
+      "seed": 1006,
+      "path": "weights/human/seed_1006.pth",
+      "bytes": 305772346,
+      "sha256": "33f1c4ada46c80b498976ed5c030338360b8d5c12b2cb2d7ea0e81d2f72eb5ea",
+      "source_sha256": "4f359215730fad682a3ad567b57d592225e04402c50913aa995bbce91b52bfa8",
+      "epoch": 36,
+      "best_validation_mIoU": 0.5947038530234183,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "human_seed_1006.pth"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "model": "ASPP-AG-SwinUNet",
+  "dataset": "human",
+  "seed": 1005,
+  "best_epoch": 29,
+  "best_validation_mIoU": 0.6048172020440041,
+  "evaluation_context": {
+    "role": "test",
+    "reference_mask_used_for_framing": false,
+    "images": 16,
+    "evaluation_batch_size": 8
+  },
+  "metric_domain": "full_image_longest_side_256_with_padding",
+  "evaluation_aggregates": {
+    "mIoU": 0.7555934784614097,
+    "mDSC": 0.8551524293871284,
+    "mPrecision": 0.8612332039773943,
+    "mRecall": 0.8492613264718245,
+    "mSpecificity": 0.952987165987055,
+    "mF2": 0.8515953879625844,
+    "PixelAcc": 0.9084663391112416,
+    "MeanAcc": 0.8492613264718245,
+    "FWIoU": 0.8384536804892271
+  },
+  "evaluation_per_class": {
+    "Background": {
+      "TP": 679795,
+      "TN": 291817,
+      "FP": 42558,
+      "FN": 34406,
+      "Precision": 0.9410842067519701,
+      "Recall": 0.9518258865500115,
+      "Specificity": 0.8727237383174961,
+      "DSC": 0.9464245687944244,
+      "F2": 0.9496579781216373,
+      "IoU": 0.8982978729026152,
+      "Accuracy": 0.9266014099120211
+    },
+    "Fibrin": {
+      "TP": 15315,
+      "TN": 1024874,
+      "FP": 3977,
+      "FN": 4410,
+      "Precision": 0.7938523740369383,
+      "Recall": 0.7764258555093717,
+      "Specificity": 0.9961345228802814,
+      "DSC": 0.7850424174057845,
+      "F2": 0.7798496822543793,
+      "IoU": 0.6461480043850892,
+      "Accuracy": 0.9920015335082063
+    },
+    "Granulation": {
+      "TP": 113997,
+      "TN": 915549,
+      "FP": 8093,
+      "FN": 10937,
+      "Precision": 0.9337128347932396,
+      "Recall": 0.9124577777058988,
+      "Specificity": 0.9912379471699001,
+      "DSC": 0.9229629509679533,
+      "F2": 0.9166310189665732,
+      "IoU": 0.8569463342021868,
+      "Accuracy": 0.9818515777586956
+    },
+    "Callus": {
+      "TP": 143489,
+      "TN": 817508,
+      "FP": 41352,
+      "FN": 46227,
+      "Precision": 0.7762834003274294,
+      "Recall": 0.7563357861220159,
+      "Specificity": 0.9518524555805425,
+      "DSC": 0.7661797803803517,
+      "F2": 0.7602428725077476,
+      "IoU": 0.6209817023557477,
+      "Accuracy": 0.9164781570433698
+    }
+  },
+  "evaluation_loss": 0.5283580347895622
+}

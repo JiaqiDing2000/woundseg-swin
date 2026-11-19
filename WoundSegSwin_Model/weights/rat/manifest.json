@@ -1,0 +1,105 @@
+{
+  "dataset": "rat",
+  "model": "ASPP-AG-SwinUNet",
+  "format": "PyTorch model state plus epoch, validation score and architecture metadata; optimizer state omitted",
+  "selection": "Highest validation mIoU separately for every seed",
+  "aspp_rates": [
+    1,
+    2,
+    3
+  ],
+  "class_names": [
+    "Background",
+    "Epithelial",
+    "Granulation",
+    "Necrotic",
+    "Pus"
+  ],
+  "weights": [
+    {
+      "seed": 1001,
+      "path": "weights/rat/seed_1001.pth",
+      "bytes": 305772602,
+      "sha256": "76c7342d955dc7934c29b507510a91b8ffc410c94ac6131d625d68da6296c55e",
+      "source_sha256": "97fb66ed3dd8536909e502310e53060b8bef43176c41d076ad3f50e6421b8ccb",
+      "epoch": 57,
+      "best_validation_mIoU": 0.8221883699762851,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "rat_seed_1001.pth"
+    },
+    {
+      "seed": 1002,
+      "path": "weights/rat/seed_1002.pth",
+      "bytes": 305772602,
+      "sha256": "992882de7845eab3ecc645fc99825423258b403976a7ad187eae1da899583942",
+      "source_sha256": "054ae912735bbbe903e751c15f569e2b9c107d6c594ed5bfc470d67be5212ffd",
+      "epoch": 57,
+      "best_validation_mIoU": 0.8181361763457806,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "rat_seed_1002.pth"
+    },
+    {
+      "seed": 1003,
+      "path": "weights/rat/seed_1003.pth",
+      "bytes": 305772602,
+      "sha256": "734344e1cd8f9589f0bcfed68148f55dda9f347377332a86dfaee5114e772c90",
+      "source_sha256": "59a01d129427d5357d1c8901b2b8f8410cca04bb5335e5c3a749d488a70a6d25",
+      "epoch": 59,
+      "best_validation_mIoU": 0.7961336064559832,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "rat_seed_1003.pth"
+    },
+    {
+      "seed": 1004,
+      "path": "weights/rat/seed_1004.pth",
+      "bytes": 305772602,
+      "sha256": "44ec962def18670e35b86b3834e7962377e97ad96a45476464b2dc6c7ae3e4b2",
+      "source_sha256": "6c5f1f4cabfae672f666cc28b87139aeb607f62bebf3d5a2ee5b7cb88b5504b1",
+      "epoch": 59,
+      "best_validation_mIoU": 0.8104809042323613,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "rat_seed_1004.pth"
+    },
+    {
+      "seed": 1005,
+      "path": "weights/rat/seed_1005.pth",
+      "bytes": 305772602,
+      "sha256": "92f56ef189446825f0f9ac6726c08e037d42057890d965cb30404e00888a7e9b",
+      "source_sha256": "70a7f1dd7abda040ebff42964d34f911315edb4193186202a4ef158c41ab23f3",
+      "epoch": 46,
+      "best_validation_mIoU": 0.8269780487026205,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "rat_seed_1005.pth"
+    },
+    {
+      "seed": 1006,
+      "path": "weights/rat/seed_1006.pth",
+      "bytes": 305772602,
+      "sha256": "94276a35ccab11eb5a6250affceca118578c18967e786812d01b9f0a34ef922e",
+      "source_sha256": "221e01538f4f9e59a0a95f734b2d2fef51295b44e053f8564b5d5bb8ca399446",
+      "epoch": 60,
+      "best_validation_mIoU": 0.8056645710074075,
+      "state_dict_entries": 570,
+      "tensor_values_identical": true,
+      "strict_loading": true,
+      "release_asset_name": "rat_seed_1006.pth"
+    }
+  ],
+  "class_display_names": [
+    "Background",
+    "Epithelial",
+    "Granulation",
+    "Dark-discolored tissue",
+    "Pus"
+  ]
+}

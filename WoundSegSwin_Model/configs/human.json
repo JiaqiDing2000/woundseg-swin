@@ -1,0 +1,74 @@
+{
+  "model": "ASPP-AG-SwinUNet",
+  "backbone": "swinv2_small_window8_256",
+  "class_names": [
+    "Background",
+    "Fibrin",
+    "Granulation",
+    "Callus"
+  ],
+  "aspp_rates": [
+    6,
+    12,
+    18
+  ],
+  "ce_weights": [
+    0.5,
+    2,
+    2,
+    2
+  ],
+  "label_smoothing": 0.05,
+  "loss_weights": {
+    "ce": 0.5,
+    "dice": 0.5,
+    "focal": 0.5
+  },
+  "drop_last": true,
+  "image_size": 256,
+  "batch_size": 4,
+  "gradient_accumulation_steps": 2,
+  "maximum_epochs": 100,
+  "early_stopping_patience": 20,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "gradient_clip_norm": 5.0,
+  "warmup_epochs": 5,
+  "warmup_start_factor": 0.001,
+  "scheduler": "LinearLR then CosineAnnealingLR",
+  "cosine_eta_min": 1e-07,
+  "checkpoint_selection": "maximum validation mIoU",
+  "amp": false,
+  "precision": "FP32",
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006
+  ],
+  "metric_domain": "full_image_longest_side_256_with_padding",
+  "split_counts": {
+    "train": 80,
+    "valid": 14,
+    "test": 16
+  },
+  "dataset": "human",
+  "loss": "ce_dice_focal",
+  "evaluation_context": {
+    "role": "test",
+    "reference_mask_used_for_framing": false
+  },
+  "focal_gamma": 2.0,
+  "sampling": "uniform_shuffle",
+  "dataset_variant": "Original",
+  "validation_fraction": 0.15,
+  "evaluation_batch_size": 8,
+  "image_only_inference": {
+    "resize": "Longest side 256, reflection padding to 256 x 256",
+    "prediction": "Argmax on the model output grid",
+    "label_restoration": "Remove letterbox padding, then nearest-neighbor resize to the input dimensions"
+  }
+}

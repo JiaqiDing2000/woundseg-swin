@@ -1,0 +1,64 @@
+{
+  "model": "ASPP-AG-SwinUNet",
+  "entrypoints": {
+    "train": "src/train.py",
+    "evaluate": "src/evaluate.py",
+    "predict": "src/predict.py"
+  },
+  "datasets": {
+    "rat": {
+      "configuration": "configs/rat.json",
+      "classes": 5,
+      "aspp_rates": [
+        1,
+        2,
+        3
+      ],
+      "checkpoint_manifest": "weights/rat/manifest.json",
+      "checkpoint_seeds": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006
+      ],
+      "checkpoint_format": "model_state tensors and dataset-specific metadata; optimizer state omitted",
+      "summary": "results/rat/final_model_summary.csv",
+      "per_seed_results": "results/rat/per_seed_metrics.csv",
+      "evaluation_domain": "reference-mask-defined 256-pixel ROI on a fixed development evaluation split"
+    },
+    "human": {
+      "configuration": "configs/human.json",
+      "classes": 4,
+      "aspp_rates": [
+        6,
+        12,
+        18
+      ],
+      "checkpoint_seeds": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006
+      ],
+      "checkpoints_included": true,
+      "summary": "results/human/final_model_summary.csv",
+      "result_provenance": "results/human/provenance.json",
+      "result_status": "Original six-seed final-model results, with recomputed means and sample standard deviations",
+      "dataset_manifest": "datasets/human/dataset_manifest.json",
+      "split_status": "reconstructed_from_current_accessible_dataset",
+      "checkpoint_manifest": "weights/human/manifest.json",
+      "checkpoint_format": "model_state tensors and dataset-specific metadata; optimizer state omitted",
+      "per_seed_results": "results/human/per_seed_metrics.csv"
+    }
+  },
+  "numerical_units": {
+    "result_csv_files": "fractions unless explicitly stated",
+    "standard_deviation_ddof": 1
+  },
+  "file_checksums": "MANIFEST.sha256",
+  "release_asset_naming": "Use each checkpoint manifest release_asset_name when uploading flat release assets; local paths remain dataset-specific."
+}

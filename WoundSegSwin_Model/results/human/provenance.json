@@ -1,0 +1,45 @@
+{
+  "dataset": "human_DFUTissue",
+  "model": "ASPP-AG-SwinUNet",
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006
+  ],
+  "source_code_sha256": "949b77c3e251663ba7f0c641456fd68b6717c52ce44ac4e6e9a0ee7e4779ce3d",
+  "original_per_seed_result_sha256": {
+    "1001": "efc6759aebe83452ea1d48332a573f4224cce8fbb03e963c58534a1b9cff5d88",
+    "1002": "fd2ade314eceeba493c785687ff2d9b66f1b178e3cbb5389dd2c326b81cb1c31",
+    "1003": "22748287aa1964f8599c6e9a0500b213aa53a14b82f7d15f80acab470611c56e",
+    "1004": "831795cc284f92a136f046084bae495cd06c9af974cc67913bf916bc4f42ad44",
+    "1005": "636c7aa0bc24bc5ff7847de380b18f401c6e767e8d89ab315dc353746fd5dcfe",
+    "1006": "1cf0aa8071f283c1fe9c693865c6dc5a2e8761608903dfda5515793c4e6bc226"
+  },
+  "original_training_metrics_sha256": {
+    "1001": "624c19483ef666495c625362977003633beb06091477868d4a3fcee6314c1939",
+    "1002": "d88915090a0ecb60288c9e336bc0c2d9ae317dc4c05d6ec36e3e29ca5aa52007",
+    "1003": "c23f749f870a32ab3d346ea1578e62f0e97703fcf3fe5fdd5cc9607361011f53",
+    "1004": "7f7fa70d0defa92ae86f01ca6acce7cda170b8dca5615f872146ed24986cf72c",
+    "1005": "c82c4b677d69c92bfbab5c9a991b5dc61ee667f396562abdce0fafcde67e57b6",
+    "1006": "36792b692c818363c70d25cb4159bee23cd6b594ff8e5657774e177e903b5f9a"
+  },
+  "raw_results_included": true,
+  "original_metric_values_preserved": true,
+  "summary_unit": "fraction",
+  "standard_deviation_ddof": 1,
+  "aggregate_scope": "All four classes including Background",
+  "evaluation_images": 16,
+  "evaluation_batch_size": 8,
+  "dataset_split_counts": {
+    "train": 80,
+    "valid": 14,
+    "test": 16
+  },
+  "dataset_manifest_status": "Reconstructed from the current accessible dataset using the final-model training source; no training-time checksum manifest was available.",
+  "checkpoint_manifest": "weights/human/manifest.json",
+  "checkpoints_included": true,
+  "result_definition": "The tables contain original saved metrics from the final model trained with six seeds. Summary means and sample standard deviations are computed across these six seeds."
+}

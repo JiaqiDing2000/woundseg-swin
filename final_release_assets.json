@@ -1,0 +1,130 @@
+{
+  "repository": "JiaqiDing2000/woundseg-swin",
+  "release_tag": "v1.1.0",
+  "assets": [
+    {
+      "name": "rat_seed_1001.pth",
+      "relative_path": "WoundSegSwin_Model/weights/rat/seed_1001.pth",
+      "size_bytes": 305772602,
+      "sha256": "76c7342d955dc7934c29b507510a91b8ffc410c94ac6131d625d68da6296c55e",
+      "group": "rat",
+      "seed": 1001,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/rat_seed_1001.pth"
+    },
+    {
+      "name": "rat_seed_1002.pth",
+      "relative_path": "WoundSegSwin_Model/weights/rat/seed_1002.pth",
+      "size_bytes": 305772602,
+      "sha256": "992882de7845eab3ecc645fc99825423258b403976a7ad187eae1da899583942",
+      "group": "rat",
+      "seed": 1002,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/rat_seed_1002.pth"
+    },
+    {
+      "name": "rat_seed_1003.pth",
+      "relative_path": "WoundSegSwin_Model/weights/rat/seed_1003.pth",
+      "size_bytes": 305772602,
+      "sha256": "734344e1cd8f9589f0bcfed68148f55dda9f347377332a86dfaee5114e772c90",
+      "group": "rat",
+      "seed": 1003,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/rat_seed_1003.pth"
+    },
+    {
+      "name": "rat_seed_1004.pth",
+      "relative_path": "WoundSegSwin_Model/weights/rat/seed_1004.pth",
+      "size_bytes": 305772602,
+      "sha256": "44ec962def18670e35b86b3834e7962377e97ad96a45476464b2dc6c7ae3e4b2",
+      "group": "rat",
+      "seed": 1004,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/rat_seed_1004.pth"
+    },
+    {
+      "name": "rat_seed_1005.pth",
+      "relative_path": "WoundSegSwin_Model/weights/rat/seed_1005.pth",
+      "size_bytes": 305772602,
+      "sha256": "92f56ef189446825f0f9ac6726c08e037d42057890d965cb30404e00888a7e9b",
+      "group": "rat",
+      "seed": 1005,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/rat_seed_1005.pth"
+    },
+    {
+      "name": "rat_seed_1006.pth",
+      "relative_path": "WoundSegSwin_Model/weights/rat/seed_1006.pth",
+      "size_bytes": 305772602,
+      "sha256": "94276a35ccab11eb5a6250affceca118578c18967e786812d01b9f0a34ef922e",
+      "group": "rat",
+      "seed": 1006,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/rat_seed_1006.pth"
+    },
+    {
+      "name": "human_seed_1001.pth",
+      "relative_path": "WoundSegSwin_Model/weights/human/seed_1001.pth",
+      "size_bytes": 305772346,
+      "sha256": "8cc716d5569b773c548477fc6c8a0d3b1eb043b4aee1df093e175d3281ad7594",
+      "group": "human",
+      "seed": 1001,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/human_seed_1001.pth"
+    },
+    {
+      "name": "human_seed_1002.pth",
+      "relative_path": "WoundSegSwin_Model/weights/human/seed_1002.pth",
+      "size_bytes": 305772346,
+      "sha256": "a24ca383cb0c629088a0ed864c92b0f459ac800aac31edeef7be4fe333034f41",
+      "group": "human",
+      "seed": 1002,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/human_seed_1002.pth"
+    },
+    {
+      "name": "human_seed_1003.pth",
+      "relative_path": "WoundSegSwin_Model/weights/human/seed_1003.pth",
+      "size_bytes": 305772346,
+      "sha256": "b35b180ab00c42db9a3d27fdcc82e364cc6f1739c692235d3f4df16ed0831b9b",
+      "group": "human",
+      "seed": 1003,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/human_seed_1003.pth"
+    },
+    {
+      "name": "human_seed_1004.pth",
+      "relative_path": "WoundSegSwin_Model/weights/human/seed_1004.pth",
+      "size_bytes": 305772346,
+      "sha256": "b1d603bddf3fb004bc7390517062af73233c3868acc16f8a781a1681f7929692",
+      "group": "human",
+      "seed": 1004,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/human_seed_1004.pth"
+    },
+    {
+      "name": "human_seed_1005.pth",
+      "relative_path": "WoundSegSwin_Model/weights/human/seed_1005.pth",
+      "size_bytes": 305772346,
+      "sha256": "e661d2aa2ebd08759462de3501fe9454a62dde7ef87d3af2d7967bd95d070901",
+      "group": "human",
+      "seed": 1005,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/human_seed_1005.pth"
+    },
+    {
+      "name": "human_seed_1006.pth",
+      "relative_path": "WoundSegSwin_Model/weights/human/seed_1006.pth",
+      "size_bytes": 305772346,
+      "sha256": "33f1c4ada46c80b498976ed5c030338360b8d5c12b2cb2d7ea0e81d2f72eb5ea",
+      "group": "human",
+      "seed": 1006,
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/human_seed_1006.pth"
+    },
+    {
+      "name": "area_wound_images.zip",
+      "relative_path": "Area_images/wound_images.zip",
+      "size_bytes": 83901381,
+      "sha256": "18bad423d3e739c092b94942e4837c180730c0abc88de8dab567ae2e36f7cc4f",
+      "group": "area",
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/area_wound_images.zip"
+    },
+    {
+      "name": "area_wound_masks.zip",
+      "relative_path": "Area_images/wound_masks.zip",
+      "size_bytes": 373031,
+      "sha256": "42488c6636ab2accf42687a63a5bbdb48b22a3507d2b20d9208f5621e6379461",
+      "group": "area",
+      "url": "https://github.com/JiaqiDing2000/woundseg-swin/releases/download/v1.1.0/area_wound_masks.zip"
+    }
+  ]
+}

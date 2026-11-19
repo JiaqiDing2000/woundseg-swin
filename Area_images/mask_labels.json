@@ -1,0 +1,19 @@
+{
+  "mask_type": "model_prediction",
+  "model_checkpoint": "../WoundSegSwin_Model/weights/rat/seed_1005.pth",
+  "format": "8-bit single-channel PNG; pixel values are class IDs",
+  "labels": {
+    "0": "Background",
+    "1": "Epithelial",
+    "2": "Granulation",
+    "3": "Dark-discolored tissue",
+    "4": "Pus"
+  },
+  "coordinates": "Masks and calibration endpoints align with photographs after EXIF orientation is applied. Coordinates use a top-left origin; x is column and y is row.",
+  "paths_relative_to": "Area_images; extract each archive here to obtain images/ and masks/",
+  "wound_pixels": "Count of mask pixels with values 1, 2, 3 or 4",
+  "area_formula": "wound_pixels * (physical_length_mm / six_block_length_px)^2",
+  "class_area_formula": "class_pixel_count * (physical_length_mm / six_block_length_px)^2",
+  "difference_mm2": "automated_mm2 - manual_mm2",
+  "manual_reference": "Manual area measurements in mm^2; the masks are model predictions, not manual annotations"
+}
